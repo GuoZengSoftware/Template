@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSH1/SSH1.iml" filepath="$PROJECT_DIR$/SSH1/SSH1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSH2/SSH2.iml" filepath="$PROJECT_DIR$/SSH2/SSH2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSM/SSM.iml" filepath="$PROJECT_DIR$/SSM/SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zywork-common/zywork-common.iml" filepath="$PROJECT_DIR$/zywork-common/zywork-common.iml" />
+    </modules>
+  </component>
+</project>
