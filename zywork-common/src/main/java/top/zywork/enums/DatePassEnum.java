@@ -1,7 +1,11 @@
 package top.zywork.enums;
 
 /**
- * Created by Wang Genshen on 2017-08-16.
+ * 时间差枚举类
+ * 创建于2017-08-16
+ *
+ * @author Wang Zhenyu
+ * @version 1.0
  */
 public enum DatePassEnum {
     SECONDS_PASS("秒前"),
