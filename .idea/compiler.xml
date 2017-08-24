@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Common" />
+        <module name="zywork-common" />
+        <module name="zywork-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -14,6 +16,8 @@
       <module name="SSH1" target="1.8" />
       <module name="SSH2" target="1.8" />
       <module name="SSM" target="1.8" />
+      <module name="zywork-common" target="1.8" />
+      <module name="zywork-test" target="1.8" />
       <module name="zywrok-common" target="1.8" />
     </bytecodeTargetLevel>
   </component>

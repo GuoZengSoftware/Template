@@ -42,6 +42,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Common/pom.xml" />
+        <option value="$PROJECT_DIR$/zywork-common/pom.xml" />
+        <option value="$PROJECT_DIR$/zywork-test/pom.xml" />
       </list>
     </option>
   </component>

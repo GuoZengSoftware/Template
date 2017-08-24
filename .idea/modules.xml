@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/SSH2/SSH2.iml" filepath="$PROJECT_DIR$/SSH2/SSH2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SSM/SSM.iml" filepath="$PROJECT_DIR$/SSM/SSM.iml" />
       <module fileurl="file://$PROJECT_DIR$/zywork-common/zywork-common.iml" filepath="$PROJECT_DIR$/zywork-common/zywork-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zywork-test/zywork-test.iml" filepath="$PROJECT_DIR$/zywork-test/zywork-test.iml" />
     </modules>
   </component>
 </project>
