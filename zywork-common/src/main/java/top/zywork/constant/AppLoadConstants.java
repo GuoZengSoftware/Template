@@ -12,7 +12,7 @@ public final class AppLoadConstants {
     /**
      * 指定应用加载器需要加载的配置文件的路径
      */
-    public static final String CONFIG_LOCATION = "configLocation";
+    public static final String CONFIG_LOCATION = "appConfigLocation";
 
     /**
      * 分页组件默认的每页大小

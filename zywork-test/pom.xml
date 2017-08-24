@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>top.zywork</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>zywork-test</artifactId>
     <version>1.0</version>
 
     <build>
@@ -47,6 +47,7 @@
     </repositories>
 
     <properties>
+        <zywork.version>1.0</zywork.version>
         <dozer.version>5.5.1</dozer.version>
         <junit.version>4.12</junit.version>
     </properties>
@@ -55,8 +56,8 @@
 
         <dependency>
             <groupId>top.zywork</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0</version>
+            <artifactId>zywork-common</artifactId>
+            <version>${zywork.version}</version>
         </dependency>
     </dependencies>
 
