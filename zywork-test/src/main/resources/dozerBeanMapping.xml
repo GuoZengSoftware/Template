@@ -9,7 +9,7 @@
     </configuration>
     <mapping date-format="yyyy-MM-dd">
         <class-a>top.zywork.dos.BaseDO</class-a>
-        <class-b>top.zywork.dto.Test</class-b>
+        <class-b>top.zywork.dozer.BaseDO</class-b>
         <field>
             <a>id</a>
             <b>idd</b>

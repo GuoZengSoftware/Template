@@ -10,7 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Dozer工具测试类
+ * 创建于2017-08-24
  *
+ * @author Wang Zhenyu
  */
 public class DozerTest {
 
@@ -28,8 +31,8 @@ public class DozerTest {
         mappingFiles.add("dozerBeanMapping.xml");
         Mapper mapper = new DozerBeanMapper(mappingFiles);
         BaseDO baseDO = new BaseDO(200L);
-        top.zywork.dto.Test test = mapper.map(baseDO, top.zywork.dto.Test.class);
-        System.out.println(test.getIdd());
+        top.zywork.dozer.BaseDO baseDO1 = mapper.map(baseDO, top.zywork.dozer.BaseDO.class);
+        System.out.println(baseDO1.getIdd());
     }
 
     @Test
