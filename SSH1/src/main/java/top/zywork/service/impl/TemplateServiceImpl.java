@@ -13,7 +13,11 @@ import top.zywork.service.TemplateService;
 import java.util.List;
 
 /**
- * Created by Wang Genshen on 2017-08-24.
+ * Template服务实现类<br />
+ * 创建于2017-08-24
+ *
+ * @author 王振宇
+ * @version 1.0
  */
 public class TemplateServiceImpl implements TemplateService {
 

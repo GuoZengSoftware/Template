@@ -6,7 +6,12 @@ import top.zywork.dto.TemplateDTO;
 import top.zywork.service.TemplateService;
 
 /**
- * Created by Wang Genshen on 2017-08-24.
+ * Template测试控制器类<br />
+ * 创建于2017-08-24
+ *
+ * @author 王振宇
+ * @version 1.0
+ *
  */
 public class TemplateController extends ActionSupport {
     private static final long serialVersionUID = 1647679288455528889L;

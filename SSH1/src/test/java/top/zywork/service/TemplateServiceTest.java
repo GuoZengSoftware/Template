@@ -10,7 +10,10 @@ import top.zywork.dto.TemplateDTO;
 import javax.annotation.Resource;
 
 /**
- * Created by Wang Genshen on 2017-08-24.
+ * Template服务测试类<br />
+ * 创建于2017-08-24
+ *
+ * @author 王振宇
  */
 @ContextConfiguration(locations = {"classpath:/config/spring-template.xml", "classpath:/config/spring-hibernate.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)

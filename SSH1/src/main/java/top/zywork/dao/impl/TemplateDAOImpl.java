@@ -9,7 +9,10 @@ import top.zywork.query.StatusQuery;
 import java.util.List;
 
 /**
- * Created by Wang Genshen on 2017-08-24.
+ * TemplateDAO的实现类<br />
+ * 创建于2017-08-24
+ * @author 王振宇
+ * @version 1.0
  */
 public class TemplateDAOImpl extends AbstractBaseDAO implements TemplateDAO {
     @Override
