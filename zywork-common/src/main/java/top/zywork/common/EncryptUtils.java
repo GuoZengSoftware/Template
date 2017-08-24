@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
  * 加密工具类
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @see top.zywork.enums.AlgorithmEnum
  */

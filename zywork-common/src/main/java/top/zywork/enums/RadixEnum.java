@@ -4,7 +4,7 @@ package top.zywork.enums;
  * 常用进制枚举
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public enum RadixEnum {

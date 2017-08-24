@@ -19,7 +19,7 @@ import java.util.function.Supplier;
  * 时间格式化工具
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class DateFormatUtils {

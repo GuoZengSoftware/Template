@@ -4,7 +4,7 @@ package top.zywork.enums;
  * 随机验证码枚举，包括纯数字，纯字母，数字字母混合三种模式<br />
  * 创建于2017-08-24
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public enum RandomCodeEnum {

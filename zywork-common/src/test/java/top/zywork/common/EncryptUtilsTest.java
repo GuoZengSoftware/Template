@@ -9,7 +9,7 @@ import java.security.NoSuchAlgorithmException;
  * 加密工具的测试类
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  */
 public class EncryptUtilsTest {
 

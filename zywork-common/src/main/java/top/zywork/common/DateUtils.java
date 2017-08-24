@@ -12,7 +12,7 @@ import java.util.Date;
  * 建议使用JDK1.8提供的新时间API，如Instant, LocalDate, LocalDateTime类等
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class DateUtils {

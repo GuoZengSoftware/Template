@@ -6,7 +6,7 @@ import org.junit.Test;
  * UUID工具测试类
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  */
 public class UUIDUtilsTest {
     @Test

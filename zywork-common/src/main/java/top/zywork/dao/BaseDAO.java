@@ -12,7 +12,7 @@ import java.util.List;
  * 由Service调用DAO时，需要传递DO对象进行，并返回DO对象到Service<br />
  * 创建于2017-08-23
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @param <T> DAO操作的实体类型，具体的DO类
  */

@@ -8,7 +8,7 @@ import java.util.Date;
  * 时间期日工具测试类
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  */
 public class DateUtilsTest {
 

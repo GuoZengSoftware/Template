@@ -6,7 +6,7 @@ import top.zywork.enums.RadixEnum;
  * 字符串与ASCII码相互转换的类
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @see top.zywork.enums.RadixEnum
  */

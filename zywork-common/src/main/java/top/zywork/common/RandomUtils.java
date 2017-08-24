@@ -8,15 +8,15 @@ import java.util.Random;
  * 生成随机数，随机验证码的工具类<br />
  * 创建于2017-08-24
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class RandomUtils {
 
     /**
      * 获取指定范围内的随机整数
-     * @param min 随机整数的最小值
-     * @param max 随机整数的最大值
+     * @param min 随机整数的最小值，必须是正整数
+     * @param max 随机整数的最大值，必须是正整数，并且大于min参数
      * @return 最小值到最大值间的随机整数
      */
     public static int randomNum(int min, int max) {

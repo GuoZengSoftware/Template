@@ -7,7 +7,7 @@ import top.zywork.enums.RandomCodeEnum;
  * 随机验证码工具测试类<br />
  * 创建于2017-08-24
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  */
 public class RandomUtilsTest {
 

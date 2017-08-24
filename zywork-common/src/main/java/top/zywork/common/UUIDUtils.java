@@ -6,7 +6,7 @@ import java.util.UUID;
  * UUID工具类
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class UUIDUtils {

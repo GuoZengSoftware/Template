@@ -10,7 +10,7 @@ import javax.servlet.ServletContextListener;
  * 应用加载监听器，主要用途加载应用程序的基础配置信息
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class AppLoadListener implements ServletContextListener {

@@ -4,7 +4,7 @@ package top.zywork.dozer;
  * 用于做Dozer测试的DO类
  * 创建于2017-08-24
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  */
 public class BaseDO {
 

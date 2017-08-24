@@ -4,7 +4,7 @@ package top.zywork.enums;
  * 删除状态的枚举
  * 创建于2017-08-23
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public enum DeleteStatusEnum {

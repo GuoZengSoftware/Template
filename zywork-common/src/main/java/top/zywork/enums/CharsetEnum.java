@@ -4,7 +4,7 @@ package top.zywork.enums;
  * 编码格式枚举
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public enum CharsetEnum {

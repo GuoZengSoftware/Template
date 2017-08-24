@@ -7,7 +7,7 @@ import top.zywork.query.PageQuery;
  * 获取分页查询对象PageQuery的工具类
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class PageQueryUtils {

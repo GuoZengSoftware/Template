@@ -16,7 +16,7 @@ import java.util.Date;
  * 日期时间解析工具类
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class DateParseUtils {

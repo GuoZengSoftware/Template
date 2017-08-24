@@ -6,7 +6,7 @@ import java.util.List;
  * 分页对象，包括分页需要的参数pageSize和pageNo及分页结果total和rows
  * 创建于2017-08-15
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @param <T> 分页组件可以接收指定类型的DTO对象
  */

@@ -13,7 +13,7 @@ import java.util.List;
  * 由Controller调用Service时，需要传递DTO对象进行，并返回DTO对象到Controller<br />
  * 创建于2017-08-24
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @param <T> Service操作的数据传输对象，具体的DTO类
  */

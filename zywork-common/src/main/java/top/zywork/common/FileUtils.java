@@ -11,7 +11,7 @@ import java.io.File;
  * 文件工具类，如获取WEB-INF目录根路径，获取classpath根路径，文件后缀判断等
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class FileUtils {

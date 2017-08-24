@@ -4,7 +4,7 @@ package top.zywork.constant;
  * 应用加载器常量类
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public final class AppLoadConstants {

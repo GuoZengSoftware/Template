@@ -10,7 +10,7 @@ import java.util.Date;
  * 时间日期等可以考虑使用JDK1.8提供的新API，如Instant, LocalDate, LocalDatetime等
  * 创建于2018-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class DatePassUtils {

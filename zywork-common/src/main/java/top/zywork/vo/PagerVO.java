@@ -6,7 +6,7 @@ import java.util.List;
  * 返回到前端页面的分页对象
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @param <T> 分页组件可以返回指定类型的VO对象
  */

@@ -5,7 +5,7 @@ package top.zywork.query;
  * 更新记录状态需要提供记录的主键id和status值
  * 创建于2017-08-23
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class StatusQuery {

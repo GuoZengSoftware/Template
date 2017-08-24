@@ -6,7 +6,7 @@ import top.zywork.enums.ControllerResultEnum;
  * 控制器结果，通常都是在页面上执行添加，删除，状态改变等操作时，由控制器返回执行结果的JSON格式数据到前端页面
  * 创建于2017-08-16
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  * @see top.zywork.enums.ControllerResultEnum
  */

@@ -6,7 +6,7 @@ import java.io.Serializable;
  * 所有DTO的父类，具有所有DTO的统一标识符id属性，id属性为Long类型
  * 创建于2017-08-24
  *
- * @author Wang Zhenyu
+ * @author 王振宇
  * @version 1.0
  */
 public class BaseDTO implements Serializable {
