@@ -67,8 +67,8 @@
             <tx:method name="save*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
             <tx:method name="update*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
             <tx:method name="remove*" propagation="REQUIRED" rollback-for="java.lang.Exception"/>
+            <tx:method name="get*" read-only="true"/>
             <tx:method name="list*" read-only="true"/>
-            <tx:method name="count*" read-only="true"/>
         </tx:attributes>
     </tx:advice>
 
