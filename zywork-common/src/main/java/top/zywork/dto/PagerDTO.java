@@ -8,7 +8,7 @@ import java.util.List;
  *
  * @author Wang Zhenyu
  * @version 1.0
- * @param <T> 分页组件可以接收指定类型对象
+ * @param <T> 分页组件可以接收指定类型的DTO对象
  */
 public class PagerDTO<T> {
 

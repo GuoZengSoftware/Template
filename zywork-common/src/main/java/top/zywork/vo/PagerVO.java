@@ -8,12 +8,38 @@ import java.util.List;
  *
  * @author Wang Zhenyu
  * @version 1.0
- * @param <T> 分页组件可以返回指定类型的对象
+ * @param <T> 分页组件可以返回指定类型的VO对象
  */
 public class PagerVO<T> {
 
+    private Integer pageNo;
+    private Integer pageSize;
     private Long total;
     private List<T> rows;
+
+
+    public PagerVO() {}
+
+    public PagerVO(Integer pageNo, Integer pageSize) {
+        this.pageNo = pageNo;
+        this.pageSize = pageSize;
+    }
+
+    public Integer getPageNo() {
+        return pageNo;
+    }
+
+    public void setPageNo(Integer pageNo) {
+        this.pageNo = pageNo;
+    }
+
+    public Integer getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(Integer pageSize) {
+        this.pageSize = pageSize;
+    }
 
     public Long getTotal() {
         return total;
