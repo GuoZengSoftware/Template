@@ -4,7 +4,7 @@
     "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 	<package name="template-package" namespace="/template" extends="base-package">
-		<action name="test" class="templateController">
+		<action name="ssh1" class="templateController">
 			<result name="success">/index.jsp</result>
 		</action>
 	</package>
