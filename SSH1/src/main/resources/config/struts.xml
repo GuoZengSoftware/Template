@@ -14,12 +14,6 @@
 			<!-- 此处可添加全局异常处理 -->
 	</package>
 
-	<package name="template-package" namespace="/template" extends="base-package">
-		<action name="test" class="templateController">
-			<result name="success">/index.jsp</result>
-		</action>
-	</package>
-
-	<!--<include file="struts-*.xml" />-->
+	<include file="config/struts-*.xml" />
 
 </struts>
