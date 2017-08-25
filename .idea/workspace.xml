@@ -2,28 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5a346d-4c75-4470-b146-75ef20938da4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_32.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/controller/TemplateController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/AbstractBaseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/TemplateDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/impl/TemplateDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/TemplateDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dto/TemplateDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/service/TemplateService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/appload.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/spring-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/spring-hibernate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/struts.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/10efa5cc-1929-4b38-8748-302f7f4e2ab8.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_logback_extensions_logback_ext_spring_0_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/controller/TemplateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/TemplateDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/TemplateDO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/TemplateDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/TemplateService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/appload.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/spring-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/spring-mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/top/zywork/dos/TemplateDOMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/web/WEB-INF/views/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSH2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSH2_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH2/SSH2.iml" afterPath="$PROJECT_DIR$/SSH2/SSH2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH2/pom.xml" afterPath="$PROJECT_DIR$/SSH2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH2/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/SSH2/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/SSM.iml" afterPath="$PROJECT_DIR$/SSM/SSM.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/pom.xml" afterPath="$PROJECT_DIR$/SSM/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/SSH2/target/" />
     <ignored path="$PROJECT_DIR$/SSH1/target/" />
@@ -77,7 +86,104 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="TemplateDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/TemplateDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/TemplateDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/controller/TemplateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateDOMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/top/zywork/dos/TemplateDOMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <marker date="1503653386235" expanded="true" signature="325:392" ph="insert into t_template... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/spring-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateDO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/TemplateDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +191,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -127,20 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/RandomUtilsTest.java" />
-        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/RandomUtils.java" />
-        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/exception/ServiceException.java" />
-        <option value="$PROJECT_DIR$/SSH1/web/index.jsp" />
-        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/DateFormatUtils.java" />
-        <option value="$PROJECT_DIR$/SSM/pom.xml" />
-        <option value="$PROJECT_DIR$/zywork-test/pom.xml" />
-        <option value="$PROJECT_DIR$/SSH1/web/WEB-INF/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/zywork-document/documents/template.sql" />
-        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/dao/AbstractBaseDAO.java" />
-        <option value="$PROJECT_DIR$/SSH1/web/WEB-INF/config/spring-context.xml" />
-        <option value="$PROJECT_DIR$/SSH1/web/WEB-INF/config/spring-template.xml" />
-        <option value="$PROJECT_DIR$/SSH1/web/WEB-INF/config/spring-hibernate.xml" />
-        <option value="$PROJECT_DIR$/SSH1/src/main/java/top/zywork/dos/TemplateDO.java" />
         <option value="$PROJECT_DIR$/SSH1/src/main/resources/top/zywork/bean/TemplateDO.hbm.xml" />
         <option value="$PROJECT_DIR$/SSH1/src/main/resources/top/zywork/dos/TemplateDO.hbm.xml" />
         <option value="$PROJECT_DIR$/SSH1/src/main/resources/config/jdbc.properties" />
@@ -165,18 +258,32 @@
         <option value="$PROJECT_DIR$/SSH1/src/main/resources/config/log4j.properties" />
         <option value="$PROJECT_DIR$/SSH1/src/main/resources/config/struts.xml" />
         <option value="$PROJECT_DIR$/SSH2/pom.xml" />
-        <option value="$PROJECT_DIR$/SSH1/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/impl/TemplateDAOImpl.java" />
         <option value="$PROJECT_DIR$/SSH1/src/main/resources/config/struts-template.xml" />
-        <option value="$PROJECT_DIR$/SSH2/src/main/resources/config/spring-hibernate.xml" />
         <option value="$PROJECT_DIR$/SSH2/src/main/resources/config/spring-context.xml" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/AbstractBaseDAO.java" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/controller/TemplateController.java" />
-        <option value="$PROJECT_DIR$/SSH2/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/SSH2/src/main/resources/config/log4j.properties" />
         <option value="$PROJECT_DIR$/SSH2/src/main/resources/config/struts.xml" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/TemplateDO.java" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/config/spring-context.xml" />
+        <option value="$PROJECT_DIR$/SSH2/src/main/resources/config/spring-hibernate.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/config/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/SSH2/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SSH1/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/config/mybatis.xml" />
+        <option value="$PROJECT_DIR$/SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/config/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/config/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/TemplateDAO.java" />
+        <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/TemplateDO.java" />
+        <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/config/springmvc.xml" />
+        <option value="$PROJECT_DIR$/SSM/web/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/controller/TemplateController.java" />
+        <option value="$PROJECT_DIR$/SSM/src/main/resources/top/zywork/dos/TemplateDOMapper.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -228,6 +335,330 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zywork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zywork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zywork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zywork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zywork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zywork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Template" />
@@ -327,16 +758,14 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="SSH1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,7 +775,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SSH2" />
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -363,168 +886,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSH2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSH2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSH2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSH2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSH2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,17 +899,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.27521867" />
+    <property name="project.structure.side.proportion" value="0.24606414" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/zywork-common" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\development\GitHub\Template\zywork-test\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="top.zywork.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\GitHub\Template\SSM\src\main\resources\top\zywork\dos" />
+      <recent name="C:\development\GitHub\Template\SSM\src\main\java\top\zywork" />
+      <recent name="C:\development\GitHub\Template\SSM\src\main\resources\config" />
+      <recent name="C:\development\GitHub\Template\SSH2\src\main\java\top\zywork" />
+      <recent name="C:\development\GitHub\Template\SSH2\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="top.zywork.dao" />
@@ -557,12 +922,8 @@
       <recent name="top.zywork.vo" />
       <recent name="top.zywork.listener" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\development\GitHub\Template\SSH2\src\main\java\top\zywork" />
-      <recent name="C:\development\GitHub\Template\SSH2\src\main\resources" />
-      <recent name="C:\development\GitHub\Template\zywork-document\documents\开发规范" />
-      <recent name="C:\development\GitHub\Template\SSH1\src\main\resources\config" />
-      <recent name="C:\development\GitHub\Template\SSH1\web\WEB-INF\config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\development\GitHub\Template\zywork-test\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1109,7 +1470,7 @@
     <configuration default="false" name="Tomcat 8.5.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SSH2:war exploded">
+        <artifact name="SSM:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -1174,7 +1535,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SSH2:war exploded" />
+          <artifact name="SSM:war exploded" />
         </option>
       </method>
     </configuration>
@@ -1223,7 +1584,7 @@
       <workItem from="1503454804591" duration="19086000" />
       <workItem from="1503546395622" duration="24567000" />
       <workItem from="1503626810642" duration="13529000" />
-      <workItem from="1503642591942" duration="90000" />
+      <workItem from="1503642591942" duration="10099000" />
     </task>
     <servers />
   </component>
@@ -1260,10 +1621,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92344000" />
+    <option name="totallyTimeSpent" value="102353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1546" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1279,6 +1641,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1287,7 +1650,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8991466" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43365696" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31553397" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1295,49 +1658,11 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2588997" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8991466" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42637542" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1356,720 +1681,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SSH1/target/classes/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/target/classes/config/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/constant/AppLoadConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/dao/AbstractBaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/dao/TemplateDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/dos/TemplateDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/dto/TemplateDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/dao/impl/TemplateDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/service/TemplateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/test/java/top/zywork/service/TemplateServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-715">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/top.zywork:SSH1:1.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>top.zywork:SSH1:1.0</OriginalElement>
-          <nodes>
-            <node x="0.0" y="1437.8531500572735">top.zywork:SSH1:1.0</node>
-            <node x="226.5" y="199.60315005727352">top.zywork:zywork-common:jar:1.0</node>
-            <node x="722.5" y="291.332302405498">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1</node>
-            <node x="1078.0" y="325.5">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1</node>
-            <node x="1439.0" y="325.5">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="1097.0" y="229.5">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.apache.commons:commons-lang3:jar:3.2.1</node>
-            <node x="1117.5" y="133.5">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:jcl-over-slf4j:jar:1.7.5</node>
-            <node x="710.0" y="195.332302405498">top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="728.5" y="0.0">top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12</node>
-            <node x="1107.5" y="0.0">top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="689.0" y="1150.2682703321873">org.apache.struts:struts2-core:jar:2.3.32</node>
-            <node x="1125.0" y="1255.3531500572735">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32</node>
-            <node x="2154.0" y="1255.3531500572735">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm:jar:3.3</node>
-            <node x="1474.0" y="1274.6031500572735">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3</node>
-            <node x="1824.5" y="1274.6031500572735">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
-            <node x="1126.0" y="1064.6031500572735">org.apache.struts:struts2-core:jar:2.3.32/org.freemarker:freemarker:jar:2.3.22</node>
-            <node x="1529.0" y="1197.6031500572735">org.apache.struts:struts2-core:jar:2.3.32/ognl:ognl:jar:3.0.19</node>
-            <node x="1073.0" y="968.6031500572735">org.apache.struts:struts2-core:jar:2.3.32/commons-fileupload:commons-fileupload:jar:1.3.2</node>
-            <node x="1485.5" y="1086.5823024054978">org.apache.struts:struts2-core:jar:2.3.32/commons-io:commons-io:jar:2.2</node>
-            <node x="214.5" y="1336.9616838487964">org.apache.struts:struts2-json-plugin:jar:2.3.32</node>
-            <node x="1466.0" y="1370.6031500572735">org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2</node>
-            <node x="203.5" y="1495.6888888888889">org.apache.struts:struts2-spring-plugin:jar:2.3.32</node>
-            <node x="683.0" y="1437.8531500572735">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="691.5" y="1533.8531500572735">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="675.0" y="1629.8531500572735">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-            <node x="692.5" y="1725.8531500572735">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
-            <node x="1811.0" y="2004.7640893470784">org.springframework:spring-core:jar:4.3.10.RELEASE</node>
-            <node x="2077.0" y="2004.7640893470784">org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="1483.5" y="1865.9531500572737">org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
-            <node x="675.0" y="1981.2031500572737">org.springframework:spring-context:jar:4.3.10.RELEASE</node>
-            <node x="1458.5" y="1961.9531500572737">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
-            <node x="256.0" y="2012.5156357388314">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
-            <node x="256.5" y="1808.4531500572737">org.springframework:spring-orm:jar:4.3.10.RELEASE</node>
-            <node x="692.0" y="1827.7031500572737">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
-            <node x="1136.5" y="1808.4531500572737">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
-            <node x="1126.0" y="2041.8698167239404">org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
-            <node x="1495.5" y="2126.4698167239403">org.springframework:spring-test:jar:4.3.10.RELEASE</node>
-            <node x="241.5" y="391.6031500572735">org.aspectj:aspectjweaver:jar:1.8.10</node>
-            <node x="200.0" y="583.6031500572735">mysql:mysql-connector-java:jar:5.1.42</node>
-            <node x="237.0" y="779.1031500572735">org.hibernate:hibernate-core:jar:5.2.10.Final</node>
-            <node x="1111.0" y="835.2474226804117">org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
-            <node x="639.0" y="489.49742268041166">org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
-            <node x="709.5" y="585.4974226804117">org.hibernate:hibernate-core:jar:5.2.10.Final/org.javassist:javassist:jar:3.20.0-GA</node>
-            <node x="728.5" y="681.4974226804117">org.hibernate:hibernate-core:jar:5.2.10.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="591.5" y="1054.2682703321873">org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final</node>
-            <node x="717.5" y="393.49742268041155">org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss:jandex:jar:2.0.3.Final</node>
-            <node x="701.0" y="777.4974226804117">org.hibernate:hibernate-core:jar:5.2.10.Final/com.fasterxml:classmate:jar:1.3.0</node>
-            <node x="718.5" y="958.2682703321873">org.hibernate:hibernate-core:jar:5.2.10.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="576.0" y="854.4974226804117">org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
-            <node x="288.0" y="981.01981672394">com.alibaba:druid:jar:1.1.2</node>
-            <node x="289.5" y="487.6031500572735">log4j:log4j:jar:1.2.17</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="121.5" y="-0.0" />
-              <point x="496.0" y="227.60315005727352" />
-              <point x="576.0" y="223.332302405498" />
-              <point x="-74.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="109.5" y="7.0" />
-              <point x="993.0" y="2016.2031500572737" />
-              <point x="1073.0" y="2028.4531500572737" />
-              <point x="1731.0" y="2028.4531500572737" />
-              <point x="-93.0" y="2.7999999999999545" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE">
-              <point x="91.5" y="7.0" />
-              <point x="496.0" y="1843.4531500572737" />
-              <point x="576.0" y="1855.7031500572737" />
-              <point x="-92.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="92.5" y="-18.666666666666742" />
-              <point x="993.0" y="1837.036483390607" />
-              <point x="1073.0" y="1797.9531500572737" />
-              <point x="1731.0" y="1797.9531500572737" />
-              <point x="-93.0" y="-19.59999999999991" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-web:jar:3.0.5.RELEASE">
-              <point x="144.5" y="23.333333333333258" />
-              <point x="576.0" y="1753.8531500572735" />
-              <point x="-92.0" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="mysql:mysql-connector-java:jar:5.1.42">
-              <point x="60.0" y="-15.75" />
-              <point x="-148.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/dom4j:dom4j:jar:1.6.1">
-              <point x="111.0" y="18.66666666666663" />
-              <point x="496.0" y="825.7698167239402" />
-              <point x="576.0" y="986.2682703321873" />
-              <point x="-66.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-core:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
-              <point x="93.0" y="-0.0" />
-              <point x="-130.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="60.0" y="8.75" />
-              <point x="200.0" y="1902.2031500572737" />
-              <point x="1359.0" y="1902.2031500572737" />
-              <point x="1439.0" y="1893.9531500572737" />
-              <point x="-101.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="109.5" y="-21.0" />
-              <point x="993.0" y="1988.2031500572737" />
-              <point x="1073.0" y="1939.228350515463" />
-              <point x="1359.0" y="1939.228350515463" />
-              <point x="1439.0" y="1909.9531500572737" />
-              <point x="-101.5" y="16.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-json-plugin:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32">
-              <point x="133.5" y="-14.0" />
-              <point x="496.0" y="1350.9616838487964" />
-              <point x="576.0" y="1178.2682703321873" />
-              <point x="-95.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-json-plugin:jar:2.3.32" target="org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2">
-              <point x="133.5" y="14.0" />
-              <point x="496.0" y="1378.9616838487964" />
-              <point x="576.0" y="1402.4364833906068" />
-              <point x="1359.0" y="1402.4364833906068" />
-              <point x="-119.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
-              <point x="111.0" y="-18.66666666666663" />
-              <point x="496.0" y="788.4364833906069" />
-              <point x="576.0" y="517.4974226804117" />
-              <point x="-145.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="79.5" y="-14.0" />
-              <point x="1731.0" y="1822.4531500572737" />
-              <point x="-93.0" y="-14.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.aspectj:aspectjweaver:jar:1.8.10">
-              <point x="60.0" y="-22.75" />
-              <point x="200.0" y="419.6031500572735" />
-              <point x="-106.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-beans:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="101.5" y="-0.0" />
-              <point x="1731.0" y="1893.9531500572737" />
-              <point x="-93.0" y="-8.400000000000091" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="92.5" y="18.666666666666742" />
-              <point x="993.0" y="1874.3698167239404" />
-              <point x="1073.0" y="1877.9531500572737" />
-              <point x="-101.5" y="-16.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="111.0" y="6.222222222222172" />
-              <point x="496.0" y="813.3253722794957" />
-              <point x="576.0" y="843.9974226804117" />
-              <point x="993.0" y="843.9974226804117" />
-              <point x="1073.0" y="849.2474226804117" />
-              <point x="-105.0" y="-14.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="126.5" y="-0.0" />
-              <point x="1731.0" y="1989.9531500572737" />
-              <point x="-93.0" y="-2.7999999999999545" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="79.5" y="14.0" />
-              <point x="1359.0" y="1850.4531500572737" />
-              <point x="1439.0" y="1869.9531500572737" />
-              <point x="-101.5" y="-24.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32">
-              <point x="144.5" y="-23.333333333333258" />
-              <point x="576.0" y="1196.934936998854" />
-              <point x="-95.5" y="18.666666666666742" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/commons-io:commons-io:jar:2.2">
-              <point x="95.5" y="-0.0" />
-              <point x="993.0" y="1178.2682703321873" />
-              <point x="1073.0" y="1172.1031500572735" />
-              <point x="1359.0" y="1172.1031500572735" />
-              <point x="1439.0" y="1128.5823024054978" />
-              <point x="-99.5" y="14.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="92.0" y="-21.0" />
-              <point x="496.0" y="2019.5156357388314" />
-              <point x="576.0" y="1931.228350515463" />
-              <point x="1359.0" y="1931.228350515463" />
-              <point x="1439.0" y="1901.9531500572737" />
-              <point x="-101.5" y="8.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1">
-              <point x="121.5" y="18.666666666666686" />
-              <point x="496.0" y="246.26981672394027" />
-              <point x="576.0" y="319.332302405498" />
-              <point x="-62.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="89.5" y="-0.0" />
-              <point x="1731.0" y="2154.4698167239403" />
-              <point x="-93.0" y="25.199999999999818" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/commons-fileupload:commons-fileupload:jar:1.3.2" target="org.apache.struts:struts2-core:jar:2.3.32/commons-io:commons-io:jar:2.2">
-              <point x="143.0" y="-0.0" />
-              <point x="1439.0" y="1100.5823024054978" />
-              <point x="-99.5" y="-14.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/commons-fileupload:commons-fileupload:jar:1.3.2">
-              <point x="95.5" y="-22.40000000000009" />
-              <point x="993.0" y="1155.8682703321872" />
-              <point x="-143.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-aop:jar:4.3.10.RELEASE">
-              <point x="92.0" y="7.0" />
-              <point x="496.0" y="2047.5156357388314" />
-              <point x="576.0" y="2063.453150057274" />
-              <point x="993.0" y="2063.453150057274" />
-              <point x="1073.0" y="2069.8698167239404" />
-              <point x="-90.0" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.apache.commons:commons-lang3:jar:3.2.1">
-              <point x="62.0" y="-7.0" />
-              <point x="993.0" y="312.332302405498" />
-              <point x="1073.0" y="257.5" />
-              <point x="-119.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="91.5" y="21.0" />
-              <point x="496.0" y="1857.4531500572737" />
-              <point x="576.0" y="1894.2031500572737" />
-              <point x="1359.0" y="1894.2031500572737" />
-              <point x="1439.0" y="1885.9531500572737" />
-              <point x="-101.5" y="-8.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
-              <point x="60.0" y="15.75" />
-              <point x="200.0" y="2040.5156357388314" />
-              <point x="-92.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
-              <point x="90.0" y="-14.0" />
-              <point x="1359.0" y="2055.8698167239404" />
-              <point x="1439.0" y="1917.9531500572737" />
-              <point x="-101.5" y="24.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12" target="top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="56.0" y="-0.0" />
-              <point x="-108.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:jcl-over-slf4j:jar:1.7.5">
-              <point x="62.0" y="-21.0" />
-              <point x="993.0" y="298.332302405498" />
-              <point x="1073.0" y="161.5" />
-              <point x="-98.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-test:jar:4.3.10.RELEASE">
-              <point x="60.0" y="26.25" />
-              <point x="200.0" y="2154.4698167239403" />
-              <point x="-89.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2">
-              <point x="91.0" y="21.0" />
-              <point x="1359.0" y="1304.3531500572735" />
-              <point x="1439.0" y="1379.9364833906068" />
-              <point x="-119.0" y="-18.666666666666742" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2">
-              <point x="144.5" y="-14.0" />
-              <point x="576.0" y="1413.4364833906068" />
-              <point x="1359.0" y="1413.4364833906068" />
-              <point x="-119.0" y="18.666666666666742" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/ognl:ognl:jar:3.0.19">
-              <point x="95.5" y="11.200000000000045" />
-              <point x="993.0" y="1189.4682703321873" />
-              <point x="1073.0" y="1211.6031500572735" />
-              <point x="-56.0" y="-14.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="com.alibaba:druid:jar:1.1.2">
-              <point x="60.0" y="-8.75" />
-              <point x="200.0" y="1009.01981672394" />
-              <point x="-60.0" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1">
-              <point x="62.0" y="7.0" />
-              <point x="993.0" y="326.332302405498" />
-              <point x="-138.0" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.hibernate:hibernate-core:jar:5.2.10.Final">
-              <point x="60.0" y="-12.25" />
-              <point x="200.0" y="807.1031500572735" />
-              <point x="-111.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-beans:jar:3.0.5.RELEASE">
-              <point x="144.5" y="-4.6666666666667425" />
-              <point x="576.0" y="1465.8531500572735" />
-              <point x="-101.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.freemarker:freemarker:jar:2.3.22">
-              <point x="95.5" y="-11.200000000000045" />
-              <point x="993.0" y="1167.0682703321872" />
-              <point x="1073.0" y="1092.6031500572735" />
-              <point x="-90.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
-              <point x="92.0" y="-7.0" />
-              <point x="496.0" y="2033.5156357388314" />
-              <point x="576.0" y="2023.2031500572737" />
-              <point x="-109.5" y="14.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.javassist:javassist:jar:3.20.0-GA">
-              <point x="111.0" y="-12.444444444444457" />
-              <point x="496.0" y="794.6587056128291" />
-              <point x="576.0" y="613.4974226804117" />
-              <point x="-75.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/antlr:antlr:jar:2.7.7">
-              <point x="111.0" y="-6.222222222222172" />
-              <point x="496.0" y="800.8809278350514" />
-              <point x="576.0" y="709.4974226804117" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-aop:jar:4.3.10.RELEASE">
-              <point x="60.0" y="19.25" />
-              <point x="200.0" y="2094.953150057274" />
-              <point x="993.0" y="2094.953150057274" />
-              <point x="1073.0" y="2088.536483390607" />
-              <point x="-90.0" y="18.666666666666515" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="90.0" y="14.0" />
-              <point x="1731.0" y="2083.8698167239404" />
-              <point x="-93.0" y="8.400000000000091" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
-              <point x="208.5" y="-0.0" />
-              <point x="1073.0" y="877.2474226804117" />
-              <point x="-105.0" y="14.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-aop:jar:4.3.10.RELEASE">
-              <point x="109.5" y="21.0" />
-              <point x="993.0" y="2030.2031500572737" />
-              <point x="1073.0" y="2051.203150057274" />
-              <point x="-90.0" y="-18.666666666666515" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
-              <point x="91.5" y="-7.0" />
-              <point x="496.0" y="1829.4531500572737" />
-              <point x="576.0" y="1817.2031500572737" />
-              <point x="993.0" y="1817.2031500572737" />
-              <point x="1073.0" y="1822.4531500572737" />
-              <point x="-79.5" y="-14.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3">
-              <point x="111.0" y="-0.0" />
-              <point x="-79.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.apache.struts:struts2-core:jar:2.3.32">
-              <point x="60.0" y="-5.25" />
-              <point x="200.0" y="1153.4364833906068" />
-              <point x="496.0" y="1153.4364833906068" />
-              <point x="576.0" y="1159.6016036655205" />
-              <point x="-95.5" y="-18.666666666666742" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.apache.struts:struts2-json-plugin:jar:2.3.32">
-              <point x="60.0" y="-1.75" />
-              <point x="200.0" y="1364.9616838487964" />
-              <point x="-133.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12">
-              <point x="121.5" y="-18.666666666666657" />
-              <point x="496.0" y="208.93648339060678" />
-              <point x="576.0" y="28.0" />
-              <point x="-56.0" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1">
-              <point x="138.0" y="-0.0" />
-              <point x="-146.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="92.0" y="21.0" />
-              <point x="496.0" y="2061.5156357388314" />
-              <point x="576.0" y="2110.3698167239404" />
-              <point x="1731.0" y="2110.3698167239404" />
-              <point x="-93.0" y="14.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32">
-              <point x="60.0" y="1.75" />
-              <point x="-144.5" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
-              <point x="92.5" y="-0.0" />
-              <point x="993.0" y="1855.7031500572737" />
-              <point x="1073.0" y="1850.4531500572737" />
-              <point x="-79.5" y="14.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="log4j:log4j:jar:1.2.17">
-              <point x="60.0" y="-19.25" />
-              <point x="200.0" y="515.6031500572735" />
-              <point x="-58.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-context:jar:3.0.5.RELEASE">
-              <point x="144.5" y="14.0" />
-              <point x="576.0" y="1657.8531500572735" />
-              <point x="-109.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="60.0" y="22.75" />
-              <point x="200.0" y="2115.9698167239403" />
-              <point x="1731.0" y="2115.9698167239403" />
-              <point x="-93.0" y="19.59999999999991" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
-              <point x="111.0" y="12.444444444444457" />
-              <point x="496.0" y="819.547594501718" />
-              <point x="-208.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3">
-              <point x="91.0" y="7.0" />
-              <point x="1359.0" y="1290.3531500572735" />
-              <point x="1439.0" y="1302.6031500572735" />
-              <point x="-111.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/com.fasterxml:classmate:jar:1.3.0">
-              <point x="111.0" y="-0.0" />
-              <point x="-83.5" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final">
-              <point x="111.0" y="24.888888888888914" />
-              <point x="496.0" y="831.9920389461624" />
-              <point x="576.0" y="1082.2682703321873" />
-              <point x="-193.0" y="-0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
-              <point x="91.5" y="-21.0" />
-              <point x="496.0" y="1815.4531500572737" />
-              <point x="576.0" y="1792.3531500572735" />
-              <point x="1731.0" y="1792.3531500572735" />
-              <point x="-93.0" y="-25.200000000000045" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="top.zywork:zywork-common:jar:1.0">
-              <point x="60.0" y="-26.25" />
-              <point x="200.0" y="227.60315005727352" />
-              <point x="-121.5" y="-0.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
-              <point x="60.0" y="12.25" />
-              <point x="200.0" y="1981.728350515463" />
-              <point x="496.0" y="1981.728350515463" />
-              <point x="576.0" y="1995.2031500572737" />
-              <point x="-109.5" y="-14.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm:jar:3.3">
-              <point x="91.0" y="-7.0" />
-              <point x="1359.0" y="1276.3531500572735" />
-              <point x="1439.0" y="1264.1031500572735" />
-              <point x="1997.0" y="1264.1031500572735" />
-              <point x="2077.0" y="1269.3531500572735" />
-              <point x="-53.5" y="-14.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
-              <point x="109.5" y="-7.0" />
-              <point x="993.0" y="2002.2031500572737" />
-              <point x="1073.0" y="1989.9531500572737" />
-              <point x="-126.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32">
-              <point x="95.5" y="22.40000000000009" />
-              <point x="993.0" y="1200.6682703321874" />
-              <point x="1073.0" y="1283.3531500572735" />
-              <point x="-91.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-core:jar:3.0.5.RELEASE">
-              <point x="144.5" y="4.6666666666667425" />
-              <point x="576.0" y="1561.8531500572735" />
-              <point x="-93.0" y="-0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss:jandex:jar:2.0.3.Final">
-              <point x="111.0" y="-24.888888888888914" />
-              <point x="496.0" y="782.2142611683846" />
-              <point x="576.0" y="421.49742268041166" />
-              <point x="-67.0" y="-0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/ognl:ognl:jar:3.0.19">
-              <point x="91.0" y="-21.0" />
-              <point x="1359.0" y="1262.3531500572735" />
-              <point x="1439.0" y="1239.6031500572735" />
-              <point x="-56.0" y="14.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm:jar:3.3">
-              <point x="79.5" y="-0.0" />
-              <point x="2077.0" y="1297.3531500572735" />
-              <point x="-53.5" y="14.0" />
-            </edge>
-            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-orm:jar:4.3.10.RELEASE">
-              <point x="60.0" y="5.25" />
-              <point x="200.0" y="1836.4531500572737" />
-              <point x="-91.5" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5406264185201998" x="24.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/top.zywork:zywork-common:1.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>top.zywork:zywork-common:1.0</OriginalElement>
-          <nodes>
-            <node x="" y="">top.zywork:zywork-common:1.0</node>
-            <node x="" y="">net.sf.dozer:dozer:jar:5.5.1</node>
-            <node x="" y="">net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1</node>
-            <node x="" y="">net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="" y="">net.sf.dozer:dozer:jar:5.5.1/org.apache.commons:commons-lang3:jar:3.2.1</node>
-            <node x="" y="">net.sf.dozer:dozer:jar:5.5.1/org.slf4j:slf4j-api:jar:1.7.5</node>
-            <node x="" y="">net.sf.dozer:dozer:jar:5.5.1/org.slf4j:jcl-over-slf4j:jar:1.7.5</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="624.0" y="268.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/controller/TemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/exception/ServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/exception/DAOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="163" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.32/struts2-core-2.3.32.jar!/org/apache/struts2/default.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
-          <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/spring-hibernate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="62" column="11" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="62" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dto/TemplateDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/TemplateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2087,13 +1699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/impl/TemplateDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2102,13 +1708,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2116,6 +1716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2131,6 +1732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2138,6 +1740,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2145,6 +1748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2152,6 +1756,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2159,33 +1764,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/src/main/resources/config/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/src/main/resources/config/spring-hibernate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/AbstractBaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2200,31 +1779,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2211">
-          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSH2/src/main/resources/config/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e5328dcd/3d537146-0ea8-4747-a28e-4e4e4b396fbe/template.t_template">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2257,11 +1816,350 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/TemplateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/AbstractBaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/impl/TemplateDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="161" column="21" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="161" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/autoload.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/appload.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/src/main/resources/config/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/spring-hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2541">
+          <caret line="77" column="17" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="77" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/top.zywork:SSM:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>top.zywork:SSM:1.0</OriginalElement>
+          <nodes>
+            <node x="" y="">top.zywork:SSM:1.0</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.apache.commons:commons-lang3:jar:3.2.1</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:jcl-over-slf4j:jar:1.7.5</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-log4j12:jar:1.7.6</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-log4j12:jar:1.7.6/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-log4j12:jar:1.7.6/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/org.slf4j:jcl-over-slf4j:jar:1.7.6</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/org.slf4j:jcl-over-slf4j:jar:1.7.6/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12</node>
+            <node x="" y="">top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.10</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.42</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.2</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.logback-extensions:logback-ext-spring:jar:0.1.4</node>
+            <node x="" y="">org.logback-extensions:logback-ext-spring:jar:0.1.4/ch.qos.logback:logback-classic:jar:1.1.1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7583367641004528" x="1204.5" y="757.2711726384365" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="59" column="32" lean-forward="false" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/src/main/resources/config/spring-hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <element signature="e#985#1010#0" expanded="true" />
+            <element signature="e#1049#1068#0" expanded="true" />
+            <element signature="e#1112#1126#0" expanded="true" />
+            <element signature="e#1170#1188#0" expanded="true" />
+            <element signature="e#1236#1258#0" expanded="true" />
+            <element signature="e#1303#1323#0" expanded="true" />
+            <element signature="e#1366#1384#0" expanded="true" />
+            <element signature="e#1427#1445#0" expanded="true" />
+            <element signature="e#1498#1524#0" expanded="true" />
+            <element signature="e#1572#1595#0" expanded="true" />
+            <element signature="e#1643#1666#0" expanded="true" />
+            <element signature="e#1715#1739#0" expanded="true" />
+            <element signature="e#1805#1845#0" expanded="true" />
+            <element signature="e#1907#1944#0" expanded="true" />
+            <element signature="e#1996#2022#0" expanded="true" />
+            <element signature="e#2080#2113#0" expanded="true" />
+            <element signature="e#2161#2184#0" expanded="true" />
+            <element signature="e#2227#2245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/TemplateDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/impl/TemplateDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/AbstractBaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/TemplateDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/TemplateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/TemplateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/controller/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e5328dcd/3d537146-0ea8-4747-a28e-4e4e4b396fbe/template.t_template">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/top/zywork/dos/TemplateDOMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <marker date="1503653386235" expanded="true" signature="325:392" ph="insert into t_template... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2271,11 +2169,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>zywork-common:war exploded</last-edited>
+          <last-edited>SSM:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27521867" />
+                <option value="0.24606414" />
                 <option value="0.5" />
               </list>
             </option>
