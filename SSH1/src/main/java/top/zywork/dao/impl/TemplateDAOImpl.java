@@ -26,7 +26,7 @@ public class TemplateDAOImpl extends AbstractBaseDAO implements TemplateDAO {
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 

@@ -34,7 +34,7 @@ public interface BaseDAO<T extends BaseDO> {
      * 根据主键从数据库中删除数据
      * @param id 主键ID
      */
-    void remove(Long id);
+    void removeById(Long id);
 
     /**
      * 根据对象更新数据库中的数据
