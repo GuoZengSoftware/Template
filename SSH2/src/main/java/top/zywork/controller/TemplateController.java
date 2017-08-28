@@ -34,7 +34,7 @@ public class TemplateController extends ActionSupport {
         this.templateService = templateService;
     }
 
-    @Action(value = "ssh2", results = {@Result(name = "success", location = "/index.jsp")})
+    @Action(value = "ssh2", results = {@Result(name = "success", location = "/WEB-INF/views/index.jsp")})
     public String execute() {
         logger.info("template******");
         TemplateDTO templateDTO = new TemplateDTO();
