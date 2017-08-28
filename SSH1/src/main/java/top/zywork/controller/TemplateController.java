@@ -23,10 +23,6 @@ public class TemplateController extends ActionSupport {
 
     private TemplateService templateService;
 
-    public void setTemplateService(TemplateService templateService) {
-        this.templateService = templateService;
-    }
-
     public String execute() {
         logger.info("template******");
         logger.debug("你好！");
@@ -35,5 +31,9 @@ public class TemplateController extends ActionSupport {
         templateDTO.setPassword(EncryptUtils.md5("123456"));
         templateService.save(templateDTO);
         return SUCCESS;
+    }
+
+    public void setTemplateService(TemplateService templateService) {
+        this.templateService = templateService;
     }
 }

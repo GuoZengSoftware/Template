@@ -29,11 +29,6 @@ public class TemplateController extends ActionSupport {
 
     private TemplateService templateService;
 
-    @Resource
-    public void setTemplateService(TemplateService templateService) {
-        this.templateService = templateService;
-    }
-
     @Action(value = "ssh2", results = {@Result(name = "success", location = "/WEB-INF/views/index.jsp")})
     public String execute() {
         logger.info("template******");
@@ -42,5 +37,10 @@ public class TemplateController extends ActionSupport {
         templateDTO.setPassword(EncryptUtils.md5("123456"));
         templateService.save(templateDTO);
         return SUCCESS;
+    }
+
+    @Resource
+    public void setTemplateService(TemplateService templateService) {
+        this.templateService = templateService;
     }
 }

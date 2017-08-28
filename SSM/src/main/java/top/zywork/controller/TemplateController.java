@@ -27,11 +27,6 @@ public class TemplateController {
 
     private TemplateService templateService;
 
-    @Resource
-    public void setTemplateService(TemplateService templateService) {
-        this.templateService = templateService;
-    }
-
     @RequestMapping(value = "ssm", method = RequestMethod.GET)
     public String add() {
         logger.info("template******");
@@ -41,5 +36,10 @@ public class TemplateController {
         templateDTO.setPassword(EncryptUtils.md5("123456"));
         templateService.save(templateDTO);
         return "index";
+    }
+
+    @Resource
+    public void setTemplateService(TemplateService templateService) {
+        this.templateService = templateService;
     }
 }
