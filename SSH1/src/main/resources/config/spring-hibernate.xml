@@ -53,7 +53,7 @@
 
         <property name="mappingLocations">
             <list>
-                <value>classpath:/top/zywork/dos/*.hbm.xml</value>
+                <value>classpath:mapping/*.hbm.xml</value>
             </list>
         </property>
     </bean>
