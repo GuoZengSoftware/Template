@@ -58,6 +58,7 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zywork-common/web/Web" />
+      <element id="javaee-facet-resources" facet="zywork-easyui/web/Web" />
     </root>
   </artifact>
 </component>
