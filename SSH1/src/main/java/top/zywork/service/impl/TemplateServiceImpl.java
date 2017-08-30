@@ -1,6 +1,5 @@
 package top.zywork.service.impl;
 
-import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 import top.zywork.dao.TemplateDAO;
 import top.zywork.dos.TemplateDO;
@@ -21,16 +20,12 @@ import java.util.List;
  */
 public class TemplateServiceImpl implements TemplateService {
 
+    private Mapper dozerMapper;
     private TemplateDAO templateDAO;
-
-    public void setTemplateDAO(TemplateDAO templateDAO) {
-        this.templateDAO = templateDAO;
-    }
 
     @Override
     public void save(TemplateDTO templateDTO) {
-        Mapper mapper = new DozerBeanMapper();
-        templateDAO.save(mapper.map(templateDTO, TemplateDO.class));
+        templateDAO.save(dozerMapper.map(templateDTO, TemplateDO.class));
     }
 
     @Override
@@ -66,5 +61,12 @@ public class TemplateServiceImpl implements TemplateService {
     @Override
     public PagerDTO listPage(PageQuery pageQuery) {
         return null;
+    }
+
+    public void setDozerMapper(Mapper dozerMapper) {
+        this.dozerMapper = dozerMapper;
+    }
+    public void setTemplateDAO(TemplateDAO templateDAO) {
+        this.templateDAO = templateDAO;
     }
 }

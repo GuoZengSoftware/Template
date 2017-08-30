@@ -10,4 +10,12 @@
     <context:annotation-config />
     <context:component-scan base-package="top.zywork" />
 
+    <bean id="dozerMapper" class="org.dozer.spring.DozerBeanMapperFactoryBean">
+        <property name="mappingFiles">
+            <list>
+
+            </list>
+        </property>
+    </bean>
+
 </beans>

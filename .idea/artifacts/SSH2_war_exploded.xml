@@ -54,6 +54,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Maven: net.sf.dozer:dozer-spring:5.5.1" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zywork-common/web/Web" />

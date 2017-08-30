@@ -1,6 +1,5 @@
 package top.zywork.service.impl;
 
-import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,18 +24,13 @@ import java.util.List;
 @Service
 public class TemplateServiceImpl implements TemplateService {
 
+    private Mapper dozerMapper;
     private TemplateDAO templateDAO;
-
-    @Resource
-    public void setTemplateDAO(TemplateDAO templateDAO) {
-        this.templateDAO = templateDAO;
-    }
 
     @Override
     @Transactional
     public void save(TemplateDTO templateDTO) {
-        Mapper mapper = new DozerBeanMapper();
-        templateDAO.save(mapper.map(templateDTO, TemplateDO.class));
+        templateDAO.save(dozerMapper.map(templateDTO, TemplateDO.class));
     }
 
     @Override
@@ -72,5 +66,15 @@ public class TemplateServiceImpl implements TemplateService {
     @Override
     public PagerDTO listPage(PageQuery pageQuery) {
         return null;
+    }
+
+    @Resource
+    public void setDozerMapper(Mapper dozerMapper) {
+        this.dozerMapper = dozerMapper;
+    }
+
+    @Resource
+    public void setTemplateDAO(TemplateDAO templateDAO) {
+        this.templateDAO = templateDAO;
     }
 }
