@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Common" />
+        <module name="SpringBoot" />
+        <module name="SprintBoot" />
         <module name="SSH1" />
         <module name="SSH2" />
         <module name="SSM" />
@@ -16,6 +18,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Common" target="1.8" />
+      <module name="SpringBoot" target="1.8" />
+      <module name="SprintBoot" target="1.8" />
       <module name="SSH1" target="1.8" />
       <module name="SSH2" target="1.8" />
       <module name="SSM" target="1.8" />
