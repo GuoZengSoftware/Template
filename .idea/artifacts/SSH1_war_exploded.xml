@@ -59,6 +59,7 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.6" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.37" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.3" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zywork-common/web/Web" />
