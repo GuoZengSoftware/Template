@@ -19,4 +19,9 @@ public final class AppLoadConstants {
      */
     public static final String PAGER_PAGE_SIZE = "pager.pageSize";
 
+    /**
+     * 加密盐值
+     */
+    public static final String ENCRYPT_SALT = "encrypt.salt";
+
 }

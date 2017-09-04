@@ -19,15 +19,17 @@ import java.security.NoSuchAlgorithmException;
  */
 public class EncryptUtils {
 
+    private static final String DEFAULT_ENCRYPT_SALT = "zywork.top&pot.krowyz-ZhenyuWang!";
+
     /**
-     * md5加密
+     * 使用默认盐值md5加密
      * @param str 明文
      * @return 使用MD5加密算法得到的密文
      */
     public static String md5(String str) {
         String encryptStr = null;
         try {
-            encryptStr = oneWayEncrypt(str, AlgorithmEnum.MD5.getValue());
+            encryptStr = oneWayEncrypt(str + DEFAULT_ENCRYPT_SALT, AlgorithmEnum.MD5.getValue());
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -51,14 +53,14 @@ public class EncryptUtils {
     }
 
     /**
-     * sha1加密
+     * 使用默认盐值sha1加密
      * @param str 明文
      * @return 使用sha1加密算法得到的密文
      */
     public static String sha1(String str) {
         String encryptStr = null;
         try {
-            encryptStr = oneWayEncrypt(str, AlgorithmEnum.SHA1.getValue());
+            encryptStr = oneWayEncrypt(str + DEFAULT_ENCRYPT_SALT, AlgorithmEnum.SHA1.getValue());
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
