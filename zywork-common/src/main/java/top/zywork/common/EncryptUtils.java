@@ -29,7 +29,7 @@ public class EncryptUtils {
     public static String md5(String str) {
         String encryptStr = null;
         try {
-            encryptStr = oneWayEncrypt(str + DEFAULT_ENCRYPT_SALT, AlgorithmEnum.MD5.getValue());
+            encryptStr = oneWayEncrypt(str, DEFAULT_ENCRYPT_SALT, AlgorithmEnum.MD5.getValue());
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -60,7 +60,7 @@ public class EncryptUtils {
     public static String sha1(String str) {
         String encryptStr = null;
         try {
-            encryptStr = oneWayEncrypt(str + DEFAULT_ENCRYPT_SALT, AlgorithmEnum.SHA1.getValue());
+            encryptStr = oneWayEncrypt(str, DEFAULT_ENCRYPT_SALT, AlgorithmEnum.SHA1.getValue());
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -76,23 +76,11 @@ public class EncryptUtils {
     public static String sha1(String str, String salt) {
         String encryptStr = null;
         try {
-            encryptStr = oneWayEncrypt(str, "",  AlgorithmEnum.SHA1.getValue());
+            encryptStr = oneWayEncrypt(str, salt,  AlgorithmEnum.SHA1.getValue());
         } catch (NoSuchAlgorithmException | UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return encryptStr;
-    }
-
-    /**
-     * 单向加密，使用Base64编码
-     * @param str 需要加密的明文
-     * @param type 加密或消息摘要算法名称
-     * @return 通过指定加密算法得到的密文
-     * @throws NoSuchAlgorithmException 未知的算法
-     * @throws UnsupportedEncodingException 不支持的编码方式
-     */
-    public static String oneWayEncrypt(String str, String type) throws NoSuchAlgorithmException, UnsupportedEncodingException {
-        return oneWayEncrypt(str, "", type);
     }
 
     /**
