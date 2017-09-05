@@ -83,9 +83,9 @@ public class HttpUtils {
     public static String httpPost(String url, Map<String, String> params) {
         HttpPost httpPost = new HttpPost(url);
         List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
-        Set<String> keySet = params.keySet();
-        for (String key : keySet) {
-            nameValuePairs.add(new BasicNameValuePair(key, params.get(key)));
+        Set<Map.Entry<String, String>> entrySet = params.entrySet();
+        for (Map.Entry<String, String> entry : entrySet) {
+            nameValuePairs.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
         }
         try {
             httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, CharsetEnum.UTF8.getValue()));
@@ -131,14 +131,13 @@ public class HttpUtils {
     public static String httpPost(String url, Map<String, String> params, Map<String, File> files) {
         HttpPost httpPost = new HttpPost(url);
         MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create();
-        Set<String> keySet = params.keySet();
-        for (String key : keySet) {
-            multipartEntityBuilder.addPart(key, new StringBody(params.get(key), ContentType.TEXT_PLAIN));
+        Set<Map.Entry<String, String>> paramEntrySet = params.entrySet();
+        for (Map.Entry<String, String> entry : paramEntrySet) {
+            multipartEntityBuilder.addPart(entry.getKey(), new StringBody(entry.getValue(), ContentType.TEXT_PLAIN));
         }
-        Set<String> fileKeySet = files.keySet();
-        for(String key : fileKeySet) {
-            FileBody fileBody = new FileBody(files.get(key));
-            multipartEntityBuilder.addPart(key, fileBody);
+        Set<Map.Entry<String, File>> fileEntrySet = files.entrySet();
+        for(Map.Entry<String, File> entry : fileEntrySet) {
+            multipartEntityBuilder.addPart(entry.getKey(), new FileBody(entry.getValue()));
         }
         HttpEntity entity = multipartEntityBuilder.build();
         httpPost.setEntity(entity);
