@@ -1,8 +1,8 @@
 package top.zywork.dao.impl;
 
-import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
 import org.springframework.stereotype.Repository;
 import top.zywork.common.ExceptionUtils;
+import top.zywork.dao.AppDaoSupport;
 import top.zywork.dao.TemplateDAO;
 import top.zywork.dos.TemplateDO;
 import top.zywork.query.PageQuery;
@@ -17,7 +17,7 @@ import java.util.List;
  * @version 1.0
  */
 @Repository
-public class TemplateDAOImpl extends HibernateDaoSupport implements TemplateDAO {
+public class TemplateDAOImpl extends AppDaoSupport implements TemplateDAO {
     @Override
     public void save(TemplateDO templateDO) {
         try {
