@@ -1,14 +1,11 @@
 package top.zywork.controller;
 
 import com.opensymphony.xwork2.ActionSupport;
-import org.hibernate.sql.Template;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import top.zywork.common.EncryptUtils;
 import top.zywork.common.ExceptionUtils;
-import top.zywork.constant.AppLoadConstants;
 import top.zywork.dto.TemplateDTO;
-import top.zywork.exception.AppException;
 import top.zywork.exception.ServiceException;
 import top.zywork.service.TemplateService;
 
@@ -35,7 +32,7 @@ public class TemplateController extends ActionSupport {
         templateDTO.setPassword(EncryptUtils.md5("123456"));
         try {
             templateService.save(templateDTO);
-        } catch (AppException e) {
+        } catch (ServiceException e) {
             logger.error(ExceptionUtils.stackTraceString(new StringBuilder(""), e));
             throw e;
         }

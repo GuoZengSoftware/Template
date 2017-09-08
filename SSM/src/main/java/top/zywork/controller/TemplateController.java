@@ -9,6 +9,7 @@ import top.zywork.common.EncryptUtils;
 import top.zywork.common.ExceptionUtils;
 import top.zywork.dto.TemplateDTO;
 import top.zywork.exception.AppException;
+import top.zywork.exception.ServiceException;
 import top.zywork.service.TemplateService;
 
 import javax.annotation.Resource;
@@ -38,7 +39,7 @@ public class TemplateController {
         templateDTO.setPassword(EncryptUtils.md5("123456"));
         try {
             templateService.save(templateDTO);
-        } catch (AppException e) {
+        } catch (ServiceException e) {
             logger.error(ExceptionUtils.stackTraceString(new StringBuilder(""), e));
             throw e;
         }
