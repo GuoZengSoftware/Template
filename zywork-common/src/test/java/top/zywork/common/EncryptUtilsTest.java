@@ -25,7 +25,7 @@ public class EncryptUtilsTest {
 
     @Test
     public void testOneWayEncrypt() throws UnsupportedEncodingException, NoSuchAlgorithmException {
-        System.out.println(EncryptUtils.oneWayEncrypt("123456", "SHA-1"));
+        System.out.println(EncryptUtils.oneWayEncrypt("123456", "salt", "SHA-1"));
     }
 
 }

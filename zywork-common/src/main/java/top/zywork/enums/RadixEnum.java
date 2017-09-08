@@ -13,17 +13,17 @@ public enum RadixEnum {
     DECIMAL(10),
     HEX(16);
 
-    private int value;
+    private Integer value;
 
-    RadixEnum(int value) {
+    RadixEnum(Integer value) {
         this.value = value;
     }
 
-    public int getValue() {
+    public Integer getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(Integer value) {
         this.value = value;
     }
 }

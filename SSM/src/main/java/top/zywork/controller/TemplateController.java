@@ -6,7 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import top.zywork.common.EncryptUtils;
+import top.zywork.common.ExceptionUtils;
 import top.zywork.dto.TemplateDTO;
+import top.zywork.exception.AppException;
 import top.zywork.service.TemplateService;
 
 import javax.annotation.Resource;
@@ -34,7 +36,12 @@ public class TemplateController {
         TemplateDTO templateDTO = new TemplateDTO();
         templateDTO.setName("test");
         templateDTO.setPassword(EncryptUtils.md5("123456"));
-        templateService.save(templateDTO);
+        try {
+            templateService.save(templateDTO);
+        } catch (AppException e) {
+            logger.error(ExceptionUtils.stackTraceString(new StringBuilder(""), e));
+            throw e;
+        }
         return "index";
     }
 

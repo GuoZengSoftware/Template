@@ -67,5 +67,5 @@ public interface BaseService<T extends BaseDTO> {
      * @param pageQuery 分页查询对象
      * @return 分页数据DTO对象所组成的List列表
      */
-    PagerDTO listPage(PageQuery pageQuery);
+    PagerDTO<T> listPage(PageQuery pageQuery);
 }

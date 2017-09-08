@@ -15,7 +15,9 @@ import javax.annotation.Resource;
  *
  * @author 王振宇
  */
-@ContextConfiguration(locations = {"classpath:/config/spring-template.xml", "classpath:/config/spring-hibernate.xml"})
+@ContextConfiguration(locations = {"classpath:/config/spring-template.xml",
+        "classpath:/config/spring-hibernate.xml",
+        "classpath:/config/spring-context.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class TemplateServiceTest {
 

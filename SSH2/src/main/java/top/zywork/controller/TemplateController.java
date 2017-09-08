@@ -6,7 +6,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import top.zywork.common.EncryptUtils;
+import top.zywork.common.ExceptionUtils;
 import top.zywork.dto.TemplateDTO;
+import top.zywork.exception.AppException;
 import top.zywork.service.TemplateService;
 
 import javax.annotation.Resource;
@@ -35,7 +37,12 @@ public class TemplateController extends ActionSupport {
         TemplateDTO templateDTO = new TemplateDTO();
         templateDTO.setName("test");
         templateDTO.setPassword(EncryptUtils.md5("123456"));
-        templateService.save(templateDTO);
+        try {
+            templateService.save(templateDTO);
+        } catch (AppException e) {
+            logger.error(ExceptionUtils.stackTraceString(new StringBuilder(""), e));
+            throw e;
+        }
         return SUCCESS;
     }
 

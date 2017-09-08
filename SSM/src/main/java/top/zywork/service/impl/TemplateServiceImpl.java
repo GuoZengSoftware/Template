@@ -2,6 +2,7 @@ package top.zywork.service.impl;
 
 import org.dozer.Mapper;
 import org.springframework.stereotype.Service;
+import top.zywork.common.ExceptionUtils;
 import top.zywork.dao.TemplateDAO;
 import top.zywork.dos.TemplateDO;
 import top.zywork.dto.PagerDTO;
@@ -28,7 +29,11 @@ public class TemplateServiceImpl implements TemplateService {
 
     @Override
     public void save(TemplateDTO templateDTO) {
-        templateDAO.save(dozerMapper.map(templateDTO, TemplateDO.class));
+        try {
+            templateDAO.save(dozerMapper.map(templateDTO, TemplateDO.class));
+        } catch (RuntimeException e) {
+            throw ExceptionUtils.serviceException(e);
+        }
     }
 
     @Override
@@ -62,7 +67,7 @@ public class TemplateServiceImpl implements TemplateService {
     }
 
     @Override
-    public PagerDTO listPage(PageQuery pageQuery) {
+    public PagerDTO<TemplateDTO> listPage(PageQuery pageQuery) {
         return null;
     }
 
