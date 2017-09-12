@@ -1,17 +1,16 @@
 package top.zywork.controller;
 
-import com.opensymphony.xwork2.ActionSupport;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
-import org.apache.struts2.convention.annotation.Action;
-import org.apache.struts2.convention.annotation.Namespace;
-import org.apache.struts2.convention.annotation.ParentPackage;
-import org.apache.struts2.convention.annotation.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import top.zywork.enums.AppControllerStatusEnum;
 import top.zywork.vo.AdminLoginVO;
 import top.zywork.vo.ControllerStatusVO;
@@ -24,35 +23,31 @@ import top.zywork.vo.ControllerStatusVO;
  * @version 1.0
  */
 @Controller
-@ParentPackage(value = "base-package")
-@Namespace(value = "/admin")
-public class AdminController extends ActionSupport {
-    private static final long serialVersionUID = 569702540698440409L;
+@RequestMapping("/admin")
+public class AdminController {
 
     private Logger logger = LoggerFactory.getLogger(AdminController.class);
-
-    private AdminLoginVO loginVO;
-
-    private ControllerStatusVO statusVO;
 
     /**
      * 显示登录页
      * @return 登录页面
      */
-    @Action(value = "login_page", results = {@Result(name = "loginPage", location = "/WEB-INF/views/admin/login.jsp")})
+    @GetMapping("login_page")
     public String loginPage() {
-        return "loginPage";
+        return "admin/login";
     }
 
     /**
      * 登录操作
      * @return 登录操作结果对应的json字符串
      */
-    @Action(value = "login", results = {@Result(name = "login", type = "json", params = {"root", "statusVO"})})
-    public String login() {
+    @PostMapping("login")
+    @ResponseBody
+    public ControllerStatusVO login(AdminLoginVO loginVO) {
+        System.out.println(loginVO.getAccount());
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(loginVO.getAccount(), loginVO.getPassword());
-        statusVO = ControllerStatusVO.okStatus(AppControllerStatusEnum.USER_LOGIN_OK.getCode(),
+        ControllerStatusVO statusVO = ControllerStatusVO.okStatus(AppControllerStatusEnum.USER_LOGIN_OK.getCode(),
                 AppControllerStatusEnum.USER_LOGIN_OK.getMessage());
         try {
             subject.login(token);
@@ -61,18 +56,6 @@ public class AdminController extends ActionSupport {
             statusVO = ControllerStatusVO.errorStatus(AppControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
                     AppControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
         }
-        return "login";
-    }
-
-    public AdminLoginVO getLoginVO() {
-        return loginVO;
-    }
-
-    public void setLoginVO(AdminLoginVO loginVO) {
-        this.loginVO = loginVO;
-    }
-
-    public ControllerStatusVO getStatusVO() {
         return statusVO;
     }
 

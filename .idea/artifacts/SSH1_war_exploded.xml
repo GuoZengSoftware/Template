@@ -84,6 +84,7 @@
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.4.0" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.9" />
           <element id="library" level="project" name="Maven: org.opensymphony.quartz:quartz:1.6.1" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-all:1.4.0" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zywork-common/web/Web" />

@@ -15,8 +15,8 @@
 </head>
 <body>
     <form id="admin-login">
-        <input type="text" name="loginVO.account" placeholder="账户名/邮箱/手机号" />
-        <input type="password" name="loginVO.password" placeholder="登录密码" />
+        <input type="text" name="account" placeholder="账户名/邮箱/手机号" />
+        <input type="password" name="password" placeholder="登录密码" />
         <input type="button" value="登录" onclick="login();"/>
     </form>
 </body>

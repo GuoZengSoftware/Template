@@ -4,7 +4,6 @@
 
 <mapper namespace="top.zywork.dao.TemplateDAO">
 	<resultMap type="templateDO" id="templdateMap">
-		<id column="id" property="id"/>
 	</resultMap>
 
 	<insert id="save" parameterType="templateDO">

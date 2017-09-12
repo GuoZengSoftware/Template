@@ -23,7 +23,7 @@ import top.zywork.vo.ControllerStatusVO;
 public class AdminController extends ActionSupport {
     private static final long serialVersionUID = 569702540698440409L;
 
-    private Logger logger = LoggerFactory.getLogger(TemplateController.class);
+    private Logger logger = LoggerFactory.getLogger(AdminController.class);
 
     private AdminLoginVO loginVO;
 
