@@ -12,7 +12,6 @@ public enum ControllerStatusEnum {
     OK("ok"),
     ERROR("error");
 
-
     private String value;
 
     ControllerStatusEnum(String value) {

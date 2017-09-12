@@ -28,12 +28,12 @@ public class TemplateController extends ActionSupport {
         logger.info("template******");
         logger.debug("你好！");
         TemplateDTO templateDTO = new TemplateDTO();
-        templateDTO.setName("testuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu");
+        templateDTO.setName("test");
         templateDTO.setPassword(EncryptUtils.md5("123456"));
         try {
             templateService.save(templateDTO);
         } catch (ServiceException e) {
-            logger.error(ExceptionUtils.stackTraceString(new StringBuilder(""), e));
+            logger.error(ExceptionUtils.stackTraceString(e));
             throw e;
         }
         return SUCCESS;
