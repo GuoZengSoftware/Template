@@ -17,15 +17,13 @@ public class TemplateDO extends BaseDO {
 
     private static final long serialVersionUID = -7900497534500297934L;
 
+    private Long id;
+    private String name;
+    private String password;
+
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    @Column(name = "name")
-    private String name;
-    @Column(name = "password")
-    private String password;
-
     @Override
     public Long getId() {
         return id;
@@ -36,6 +34,7 @@ public class TemplateDO extends BaseDO {
         this.id = id;
     }
 
+    @Column(name = "name")
     public String getName() {
         return name;
     }
@@ -44,6 +43,7 @@ public class TemplateDO extends BaseDO {
         this.name = name;
     }
 
+    @Column(name = "password")
     public String getPassword() {
         return password;
     }
