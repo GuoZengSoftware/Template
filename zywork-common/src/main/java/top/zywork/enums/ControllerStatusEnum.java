@@ -7,15 +7,15 @@ package top.zywork.enums;
  * @author 王振宇
  * @version 1.0
  */
-public enum ControllerResultEnum {
+public enum ControllerStatusEnum {
 
-    SUCCESS("success"),
-    FAIL("fail");
+    OK("ok"),
+    ERROR("error");
 
 
     private String value;
 
-    ControllerResultEnum(String value) {
+    ControllerStatusEnum(String value) {
         this.value = value;
     }
 

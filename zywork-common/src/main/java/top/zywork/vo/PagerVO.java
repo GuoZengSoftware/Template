@@ -10,7 +10,9 @@ import java.util.List;
  * @version 1.0
  * @param <T> 分页组件可以返回指定类型的VO对象
  */
-public class PagerVO<T> {
+public class PagerVO<T> extends BaseVO{
+
+    private static final long serialVersionUID = 7596824634662805852L;
 
     private Integer pageNo;
     private Integer pageSize;
