@@ -40,7 +40,7 @@ public class PermissionDAOImpl extends AppDaoSupport implements PermissionDAO {
             @Override
             public List<PermissionDO> doInHibernate(Session session) throws HibernateException {
                 String hql = "select distinct p from PermissionDO p join p.rolePermissionDOSet rp" +
-                        " join rp.roleDO r where r.id in (:roleIds)";
+                        " where rp.id in (:roleIds)";
                 try {
                     Query<PermissionDO> query = session.createQuery(hql, PermissionDO.class);
                     query.setParameter("roleIds", roleIds);

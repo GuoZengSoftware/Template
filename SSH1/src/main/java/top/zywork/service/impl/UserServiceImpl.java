@@ -79,7 +79,6 @@ public class UserServiceImpl extends AbstractBaseService implements UserService 
         return null;
     }
 
-    @Resource
     public void setUserDAO(UserDAO userDAO) {
         this.userDAO = userDAO;
     }
