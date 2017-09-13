@@ -7,58 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a5a346d-4c75-4470-b146-75ef20938da4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/ModuleDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/PermissionDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/RoleDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/ModuleDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/PermissionDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/RoleDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/RolePermissionDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/UserDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dos/UserRoleDO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/ModuleDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/PermissionDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/RoleDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dto/UserDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/enums/AppControllerStatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/query/UserAccountPasswordQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/security/shiro/AppShiroRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/AbstractBaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/ModuleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/PermissionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/ModuleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/PermissionServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/RoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/java/top/zywork/vo/AdminLoginVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/ehcache-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mapper/ModuleDAOMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mapper/PermissionDAOMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mapper/RoleDAOMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mapper/UserDAOMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/test/java/top/zywork/service/ModuleServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/test/java/top/zywork/service/PermissionServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/test/java/top/zywork/service/RoleServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/test/java/top/zywork/service/UserServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_api_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_impl_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_odysseus_juel_juel_spi_2_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_api_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_dmn_model_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_api_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_form_model_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_6_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH1/src/main/resources/config/spring-activiti.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSH2/src/main/resources/config/spring-activiti.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSM/src/main/resources/config/spring-activiti.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSH1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSH1_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSH2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSH2_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/zywork_common_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/zywork_common_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH1/SSH1.iml" afterPath="$PROJECT_DIR$/SSH1/SSH1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH1/pom.xml" afterPath="$PROJECT_DIR$/SSH1/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH1/src/main/java/top/zywork/controller/AdminController.java" afterPath="$PROJECT_DIR$/SSH1/src/main/java/top/zywork/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH2/SSH2.iml" afterPath="$PROJECT_DIR$/SSH2/SSH2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH2/pom.xml" afterPath="$PROJECT_DIR$/SSH2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/controller/AdminController.java" afterPath="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/controller/AdminController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/SSM.iml" afterPath="$PROJECT_DIR$/SSM/SSM.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/pom.xml" afterPath="$PROJECT_DIR$/SSM/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/src/main/resources/mapper/TemplateDAOMapper.xml" afterPath="$PROJECT_DIR$/SSM/src/main/resources/mapper/TemplateDAOMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/SSM/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-easyui/web/WEB-INF/views/admin/login.jsp" afterPath="$PROJECT_DIR$/zywork-easyui/web/WEB-INF/views/admin/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/pom.xml" afterPath="$PROJECT_DIR$/zywork-common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/zywork-common.iml" afterPath="$PROJECT_DIR$/zywork-common/zywork-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-test/zywork-test.iml" afterPath="$PROJECT_DIR$/zywork-test/zywork-test.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/SSH2/target/" />
     <ignored path="$PROJECT_DIR$/SSH1/target/" />
@@ -123,6 +112,7 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="BpmnFile" />
       </list>
     </option>
   </component>
@@ -179,10 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SSH2/src/test/java/RoleServiceTest.java" />
-        <option value="$PROJECT_DIR$/SSH2/src/test/java/PermissionServiceTest.java" />
-        <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/TemplateDO.java" />
-        <option value="$PROJECT_DIR$/SSH1/src/main/java/top/zywork/service/ModuleService.java" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dto/ModuleDTO.java" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/service/ModuleService.java" />
         <option value="$PROJECT_DIR$/SSH2/src/test/java/ModuleServiceTest.java" />
@@ -198,9 +184,6 @@
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/RolePermissionDO.java" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/UserDO.java" />
         <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/UserRoleDO.java" />
-        <option value="$PROJECT_DIR$/SSM/pom.xml" />
-        <option value="$PROJECT_DIR$/SSH1/pom.xml" />
-        <option value="$PROJECT_DIR$/SSH2/pom.xml" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/RoleDAO.java" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/PermissionDAO.java" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/ModuleDAO.java" />
@@ -230,6 +213,13 @@
         <option value="$PROJECT_DIR$/SSM/src/main/resources/config/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/zywork-easyui/web/WEB-INF/views/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/SSH1/pom.xml" />
+        <option value="$PROJECT_DIR$/zywork-common/pom.xml" />
+        <option value="$PROJECT_DIR$/SSH2/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/SSH1/src/main/resources/bpmn/test.bpmn" />
+        <option value="$PROJECT_DIR$/SSH1/src/main/resources/bpmn/a.bpmn" />
+        <option value="$PROJECT_DIR$/SSH1/src/main/resources/config/spring-activiti.xml" />
       </list>
     </option>
   </component>
@@ -278,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -287,7 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-easyui" />
+              <option name="myItemId" value="SSM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,29 +288,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-easyui" />
+              <option name="myItemId" value="SSM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-easyui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,19 +302,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-easyui" />
+              <option name="myItemId" value="SSM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,39 +324,214 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-easyui" />
+              <option name="myItemId" value="SSM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSH1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.27137548" />
+    <property name="project.structure.side.proportion" value="0.2103064" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lccs/lccs" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -396,11 +544,11 @@
       <recent name="top.zywork.dos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\GitHub\Template\SSM\src\main\resources\config" />
+      <recent name="C:\development\GitHub\Template\SSH2\src\main\resources\config" />
       <recent name="C:\development\GitHub\Template\SSM\src\test\java" />
       <recent name="C:\development\GitHub\Template\SSM\src\main\resources\mapper" />
       <recent name="C:\development\GitHub\Template\SSM\src\main\java\top\zywork\service\impl" />
-      <recent name="C:\development\GitHub\Template\SSM\src\main\java\top\zywork\service" />
-      <recent name="C:\development\GitHub\Template\SSM\src\main\java\top\zywork\dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\development\GitHub\Template\SSH1\src\main\resources\mapping" />
@@ -1100,7 +1248,9 @@
       <workItem from="1504232334850" duration="309000" />
       <workItem from="1504243032515" duration="112157000" />
       <workItem from="1505130717437" duration="27066000" />
-      <workItem from="1505212327350" duration="10778000" />
+      <workItem from="1505212327350" duration="11211000" />
+      <workItem from="1505276447756" duration="6397000" />
+      <workItem from="1505286594929" duration="4002000" />
     </task>
     <servers />
   </component>
@@ -1137,7 +1287,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312315000" />
+    <option name="totallyTimeSpent" value="323147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1151,17 +1301,18 @@
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1546" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969254" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21318771" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18648867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18648867" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.708301" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1171,63 +1322,25 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59115595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73467803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2880259" sideWeight="0.5027153" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3118932" sideWeight="0.4972847" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3171521" sideWeight="0.4972847" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13713592" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18648867" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46082234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59115595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2880259" sideWeight="0.5027153" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3118932" sideWeight="0.4972847" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1254,135 +1367,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="174" column="40" lean-forward="false" selection-start-line="174" selection-start-column="40" selection-end-line="174" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="181" column="40" lean-forward="false" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2519">
-          <caret line="181" column="36" lean-forward="false" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/spring-user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH1/src/main/java/top/zywork/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/enums/AppControllerStatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/enums/AppControllerStatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/ModuleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/TemplateDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/PermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/TemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/service/impl/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="55" column="33" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/mapper/TemplateDAOMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <marker date="1505216605550" expanded="true" signature="291:358" ph="insert into t_template... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dao/impl/ModuleDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-451">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,7 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-297">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,7 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1430,15 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,7 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,9 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,15 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/RoleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1496,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,9 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <marker date="1505218480501" expanded="true" signature="287:439" ph="select * fro... t_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,9 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <marker date="1505219510169" expanded="true" signature="303:494" ph="select r.* f... t_role" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1532,7 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1540,7 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1548,12 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1505220408255" expanded="true" signature="304:399" ph="select p.* f... t_permission" />
-            <marker date="1505220408255" expanded="true" signature="304:420" ph="select p.* f... t_permission" />
-            <marker date="1505220408255" expanded="true" signature="554:618" ph="select id=&quot;l... " />
-            <marker date="1505220408255" expanded="true" signature="622:890" ph="select disti... t_permission" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1569,7 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,19 +1533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/PermissionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSH2/src/main/java/top/zywork/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="31" column="67" lean-forward="false" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1609,7 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1617,7 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1625,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="75" column="21" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="75" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1654,7 +1586,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1662,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,6 +1608,1444 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/ModuleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/PermissionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/RoleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/TemplateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/java/top/zywork/vo/AdminLoginVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/top.zywork:SSH1:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>top.zywork:SSH1:1.0</OriginalElement>
+          <nodes>
+            <node x="0.0" y="3094.5">top.zywork:SSH1:1.0</node>
+            <node x="226.5" y="4666.0">top.zywork:zywork-common:jar:1.0</node>
+            <node x="722.5" y="4598.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1</node>
+            <node x="1103.5" y="4742.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1</node>
+            <node x="1490.0" y="4742.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="1122.5" y="4454.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.apache.commons:commons-lang3:jar:3.2.1</node>
+            <node x="1167.0" y="4550.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="1143.0" y="4646.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:jcl-over-slf4j:jar:1.7.5</node>
+            <node x="684.5" y="4810.0">top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer-spring:jar:5.5.1</node>
+            <node x="1167.0" y="4262.0">top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="686.0" y="4242.75">top.zywork:zywork-common:jar:1.0/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="711.5" y="4714.0">top.zywork:zywork-common:jar:1.0/com.alibaba:fastjson:jar:1.2.37</node>
+            <node x="1158.5" y="4923.858333333333">top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="1559.0" y="4935.57689933523">top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="1515.0" y="4839.57689933523">top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.9</node>
+            <node x="700.0" y="4942.442830009495">top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpmime:jar:4.5.3</node>
+            <node x="728.5" y="4358.0">top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12</node>
+            <node x="1133.0" y="4358.0">top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="689.0" y="160.75">org.apache.struts:struts2-core:jar:2.3.32</node>
+            <node x="1150.5" y="160.75">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32</node>
+            <node x="2297.0" y="134.5">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm:jar:3.3</node>
+            <node x="1525.0" y="115.25">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3</node>
+            <node x="1917.0" y="115.25">org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="1151.5" y="338.55116334283">org.apache.struts:struts2-core:jar:2.3.32/org.freemarker:freemarker:jar:2.3.22</node>
+            <node x="1580.0" y="286.05116334283">org.apache.struts:struts2-core:jar:2.3.32/ognl:ognl:jar:3.0.19</node>
+            <node x="1098.5" y="0.0">org.apache.struts:struts2-core:jar:2.3.32/commons-fileupload:commons-fileupload:jar:1.3.2</node>
+            <node x="1536.5" y="19.25">org.apache.struts:struts2-core:jar:2.3.32/commons-io:commons-io:jar:2.2</node>
+            <node x="214.5" y="640.75">org.apache.struts:struts2-json-plugin:jar:2.3.32</node>
+            <node x="665.5" y="640.75">org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="203.5" y="383.70467711300853">org.apache.struts:struts2-spring-plugin:jar:2.3.32</node>
+            <node x="683.0" y="544.75">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="691.5" y="448.75">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="675.0" y="256.75">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
+            <node x="692.5" y="352.75">org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
+            <node x="1903.5" y="3234.5539411206073">org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="2220.0" y="4114.265930674265">org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="1534.5" y="3300.25116334283">org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="675.0" y="4146.75">org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="1509.5" y="4152.25">org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="256.0" y="4089.0">org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="256.5" y="3198.6159306742657">org.springframework:spring-orm:jar:4.3.10.RELEASE</node>
+            <node x="692.0" y="3185.5">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE</node>
+            <node x="1162.0" y="3147.0">org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
+            <node x="1151.5" y="4069.75">org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="1546.5" y="3094.5">org.springframework:spring-test:jar:4.3.10.RELEASE</node>
+            <node x="241.5" y="147.19926400759869">org.aspectj:aspectjweaver:jar:1.8.10</node>
+            <node x="200.0" y="5608.733333333334">mysql:mysql-connector-java:jar:5.1.42</node>
+            <node x="237.0" y="3681.5">org.hibernate:hibernate-core:jar:5.2.10.Final</node>
+            <node x="1136.5" y="3988.75">org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="639.0" y="3873.5">org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="709.5" y="3489.5">org.hibernate:hibernate-core:jar:5.2.10.Final/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="728.5" y="3681.5">org.hibernate:hibernate-core:jar:5.2.10.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="591.5" y="3297.5">org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final</node>
+            <node x="717.5" y="3393.5">org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss:jandex:jar:2.0.3.Final</node>
+            <node x="701.0" y="3585.5">org.hibernate:hibernate-core:jar:5.2.10.Final/com.fasterxml:classmate:jar:1.3.0</node>
+            <node x="718.5" y="3777.5">org.hibernate:hibernate-core:jar:5.2.10.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="576.0" y="3969.5">org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="288.0" y="5704.733333333334">com.alibaba:druid:jar:1.1.2</node>
+            <node x="273.0" y="5512.733333333334">org.apache.shiro:shiro-all:jar:1.4.0</node>
+            <node x="2570.0" y="5469.67616334283">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0</node>
+            <node x="2822.0" y="5469.67616334283">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="2226.0" y="5687.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0</node>
+            <node x="1871.0" y="5879.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0</node>
+            <node x="2212.5" y="5956.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3</node>
+            <node x="2276.0" y="5879.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="2226.0" y="5278.091666666666">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0</node>
+            <node x="1870.0" y="5419.233333333334">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0</node>
+            <node x="1862.0" y="5323.233333333334">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0</node>
+            <node x="2257.5" y="5783.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0</node>
+            <node x="1550.0" y="5597.067830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0</node>
+            <node x="1903.0" y="5183.483333333334">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0</node>
+            <node x="1156.5" y="5656.509496676163">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-web:jar:1.4.0</node>
+            <node x="684.5" y="5528.5928300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0</node>
+            <node x="1164.5" y="5490.0928300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0/org.aspectj:aspectjrt:jar:1.8.9</node>
+            <node x="1135.0" y="5567.0928300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0/org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="677.5" y="5374.8428300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0</node>
+            <node x="1137.5" y="5394.0928300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0/net.sf.ehcache:ehcache-core:jar:2.6.11</node>
+            <node x="1561.5" y="5394.0928300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0/net.sf.ehcache:ehcache-core:jar:2.6.11/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="692.5" y="5954.067830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0</node>
+            <node x="1575.0" y="5989.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0</node>
+            <node x="1906.5" y="5975.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="1904.5" y="6071.817830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="1102.0" y="6014.317830009497">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject.extensions:guice-multibindings:jar:3.0</node>
+            <node x="673.0" y="5041.743566001897">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-hazelcast:jar:1.4.0</node>
+            <node x="1161.0" y="5060.993566001897">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-hazelcast:jar:1.4.0/com.hazelcast:hazelcast:jar:3.7.2</node>
+            <node x="688.0" y="5278.8428300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-quartz:jar:1.4.0</node>
+            <node x="1176.0" y="5259.5928300094965">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-quartz:jar:1.4.0/org.opensymphony.quartz:quartz:jar:1.6.1</node>
+            <node x="688.5" y="5632.009496676163">org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-spring:jar:1.4.0</node>
+            <node x="676.0" y="2153.5">org.activiti:activiti-engine:jar:6.0.0</node>
+            <node x="1083.0" y="2105.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0</node>
+            <node x="1494.0" y="2393.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0</node>
+            <node x="1877.5" y="2393.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="1561.5" y="2247.65116334283">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="1537.5" y="2105.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.slf4j:jcl-over-slf4j:jar:1.7.6</node>
+            <node x="1520.0" y="2009.5000000000002">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="1073.0" y="2393.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-process-validation:jar:6.0.0</node>
+            <node x="1080.0" y="2585.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0</node>
+            <node x="1561.5" y="2599.5">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="1124.5" y="1779.0000000000002">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0</node>
+            <node x="1501.0" y="1765.0000000000002">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0/org.activiti:activiti-dmn-model:jar:6.0.0</node>
+            <node x="1500.0" y="1625.25">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0</node>
+            <node x="2251.0" y="1725.0011633428298">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-core:jar:2.7.5</node>
+            <node x="1873.0" y="1784.2500000000002">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5</node>
+            <node x="2211.0" y="1861.2511633428298">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0</node>
+            <node x="1123.5" y="1606.0">org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-api:jar:6.0.0</node>
+            <node x="1123.0" y="2873.5">org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4</node>
+            <node x="1552.5" y="2921.5">org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4/com.sun.mail:javax.mail:jar:1.5.2</node>
+            <node x="1552.5" y="2825.5">org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4/javax.activation:activation:jar:1.1.1</node>
+            <node x="1122.5" y="2489.5">org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="1168.0" y="2201.5">org.activiti:activiti-engine:jar:6.0.0/org.mybatis:mybatis:jar:3.4.2</node>
+            <node x="1140.0" y="1875.0000000000002">org.activiti:activiti-engine:jar:6.0.0/org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
+            <node x="1169.0" y="1683.0">org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-api:jar:2.2.7</node>
+            <node x="1161.5" y="2000.886111111111">org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-impl:jar:2.2.7</node>
+            <node x="1170.0" y="2297.5">org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-spi:jar:2.2.7</node>
+            <node x="1552.0" y="1913.5000000000002">org.activiti:activiti-engine:jar:6.0.0/joda-time:joda-time:jar:2.6</node>
+            <node x="1167.0" y="2777.5">org.activiti:activiti-engine:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="1143.0" y="2681.5">org.activiti:activiti-engine:jar:6.0.0/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="243.5" y="1312.75">org.activiti:activiti-spring:jar:6.0.0</node>
+            <node x="675.0" y="1504.75">org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-context:jar:4.2.5.RELEASE</node>
+            <node x="692.0" y="1216.75">org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-jdbc:jar:4.2.5.RELEASE</node>
+            <node x="705.0" y="1312.75">org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-tx:jar:4.2.5.RELEASE</node>
+            <node x="1517.0" y="1529.25">org.activiti:activiti-spring:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2</node>
+            <node x="693.0" y="1120.75">org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-orm:jar:4.2.5.RELEASE</node>
+            <node x="668.5" y="928.75">org.activiti:activiti-spring:jar:6.0.0/commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="1128.0" y="928.75">org.activiti:activiti-spring:jar:6.0.0/commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="710.0" y="1024.75">org.activiti:activiti-spring:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="686.0" y="1408.75">org.activiti:activiti-spring:jar:6.0.0/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="726.0" y="832.75">log4j:log4j:jar:1.2.17</node>
+            <node x="250.0" y="750.75">org.slf4j:slf4j-log4j12:jar:1.7.6</node>
+            <node x="710.0" y="736.75">org.slf4j:slf4j-log4j12:jar:1.7.6/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="1552.5" y="3017.5">com.sun.mail:javax.mail:jar:1.6.0</node>
+            <node x="1913.0" y="2916.6372744539403">com.sun.mail:javax.mail:jar:1.6.0/javax.activation:activation:jar:1.1</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE">
+              <point x="91.5" y="-7.0" />
+              <point x="496.0" y="3219.6159306742657" />
+              <point x="576.0" y="3213.5" />
+              <point x="-92.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/joda-time:joda-time:jar:2.6">
+              <point x="158.5" y="-22.399999999999636" />
+              <point x="1490.0" y="1960.1666666666667" />
+              <point x="-84.0" y="18.666666666666515" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-hazelcast:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0">
+              <point x="111.5" y="-14.0" />
+              <point x="993.0" y="5055.743566001897" />
+              <point x="1073.0" y="5050.493566001897" />
+              <point x="1782.0" y="5050.493566001897" />
+              <point x="1862.0" y="5192.816666666667" />
+              <point x="-93.5" y="-18.666666666666742" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0">
+              <point x="75.0" y="-14.933333333333394" />
+              <point x="496.0" y="5525.8" />
+              <point x="576.0" y="5199.22616334283" />
+              <point x="1782.0" y="5199.22616334283" />
+              <point x="-134.5" y="-14.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="mysql:mysql-connector-java:jar:5.1.42">
+              <point x="60.0" y="24.0" />
+              <point x="-148.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4">
+              <point x="108.5" y="26.25" />
+              <point x="993.0" y="2207.75" />
+              <point x="1073.0" y="2901.5" />
+              <point x="-118.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4" target="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4/javax.activation:activation:jar:1.1.1">
+              <point x="118.5" y="-14.0" />
+              <point x="1410.0" y="2887.5" />
+              <point x="1490.0" y="2853.5" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5">
+              <point x="136.0" y="14.0" />
+              <point x="-123.5" y="-18.66666666666697" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0/javax.inject:javax.inject:jar:1">
+              <point x="61.0" y="-14.0" />
+              <point x="-90.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="92.5" y="18.666666666666742" />
+              <point x="1410.0" y="3232.75" />
+              <point x="1490.0" y="3312.25116334283" />
+              <point x="-101.5" y="-16.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3" target="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6">
+              <point x="83.0" y="-0.0" />
+              <point x="1410.0" y="4951.858333333333" />
+              <point x="1490.0" y="4963.57689933523" />
+              <point x="-77.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="124.5" y="-0.0" />
+              <point x="2490.0" y="5306.091666666666" />
+              <point x="-86.0" y="-12.444444444444457" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="108.5" y="12.25" />
+              <point x="993.0" y="2193.75" />
+              <point x="1073.0" y="2517.5" />
+              <point x="-119.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-api:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0">
+              <point x="118.0" y="-0.0" />
+              <point x="1410.0" y="1634.0" />
+              <point x="-136.0" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject.extensions:guice-multibindings:jar:3.0">
+              <point x="92.0" y="18.66666666666663" />
+              <point x="993.0" y="6000.734496676163" />
+              <point x="1073.0" y="6042.317830009497" />
+              <point x="-139.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0">
+              <point x="125.5" y="-11.200000000000045" />
+              <point x="2211.0" y="5830.484496676164" />
+              <point x="-93.0" y="18.666666666666742" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0">
+              <point x="86.0" y="-24.0" />
+              <point x="1782.0" y="5601.067830009497" />
+              <point x="1862.0" y="5230.150000000001" />
+              <point x="-93.5" y="18.666666666666686" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="com.sun.mail:javax.mail:jar:1.6.0">
+              <point x="60.0" y="-5.333333333333485" />
+              <point x="200.0" y="3045.5" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpmime:jar:4.5.3">
+              <point x="121.5" y="24.5" />
+              <point x="496.0" y="4718.5" />
+              <point x="576.0" y="4970.442830009495" />
+              <point x="-84.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1">
+              <point x="121.5" y="-3.5" />
+              <point x="496.0" y="4690.5" />
+              <point x="576.0" y="4626.0" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/commons-dbcp:commons-dbcp:jar:1.4">
+              <point x="104.5" y="-24.888888888888687" />
+              <point x="496.0" y="1315.8611111111113" />
+              <point x="576.0" y="956.75" />
+              <point x="-116.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0/net.sf.ehcache:ehcache-core:jar:2.6.11">
+              <point x="107.0" y="14.0" />
+              <point x="993.0" y="5416.8428300094965" />
+              <point x="1073.0" y="5422.0928300094965" />
+              <point x="-104.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0">
+              <point x="92.0" y="-0.0" />
+              <point x="993.0" y="5982.067830009497" />
+              <point x="1073.0" y="6003.817830009497" />
+              <point x="-61.0" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0/org.aspectj:aspectjweaver:jar:1.8.9">
+              <point x="100.0" y="18.66666666666663" />
+              <point x="993.0" y="5575.259496676163" />
+              <point x="1073.0" y="5595.0928300094965" />
+              <point x="-106.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0">
+              <point x="75.0" y="-18.666666666666515" />
+              <point x="496.0" y="5522.0666666666675" />
+              <point x="576.0" y="5127.493566001897" />
+              <point x="2131.0" y="5127.493566001897" />
+              <point x="2211.0" y="5287.424999999999" />
+              <point x="-124.5" y="-18.666666666666742" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-quartz:jar:1.4.0">
+              <point x="75.0" y="-7.466666666666697" />
+              <point x="496.0" y="5533.266666666666" />
+              <point x="576.0" y="5306.8428300094965" />
+              <point x="-96.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-spi:jar:2.2.7">
+              <point x="108.5" y="5.25" />
+              <point x="993.0" y="2186.75" />
+              <point x="1073.0" y="2325.5" />
+              <point x="-71.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="144.5" y="23.333333333333485" />
+              <point x="576.0" y="654.75" />
+              <point x="-119.0" y="-14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0">
+              <point x="123.5" y="14.0" />
+              <point x="-139.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1">
+              <point x="62.0" y="21.0" />
+              <point x="993.0" y="4647.0" />
+              <point x="1073.0" y="4770.0" />
+              <point x="-138.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-beans:jar:3.0.5.RELEASE">
+              <point x="144.5" y="14.0" />
+              <point x="576.0" y="572.75" />
+              <point x="-101.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-web:jar:1.4.0">
+              <point x="75.0" y="7.466666666666697" />
+              <point x="496.0" y="5548.200000000001" />
+              <point x="576.0" y="5698.509496676163" />
+              <point x="-85.0" y="14.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="92.0" y="21.0" />
+              <point x="496.0" y="4138.0" />
+              <point x="576.0" y="4160.75" />
+              <point x="-109.5" y="-14.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.javassist:javassist:jar:3.20.0-GA">
+              <point x="111.0" y="-12.444444444444343" />
+              <point x="496.0" y="3697.0555555555557" />
+              <point x="576.0" y="3517.5" />
+              <point x="-75.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="142.0" y="-0.0" />
+              <point x="-119.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0">
+              <point x="125.5" y="-22.40000000000009" />
+              <point x="2211.0" y="5734.484496676163" />
+              <point x="-124.5" y="18.66666666666663" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0">
+              <point x="161.5" y="-14.0" />
+              <point x="-142.0" y="18.66666666666697" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0">
+              <point x="75.0" y="14.933333333333394" />
+              <point x="496.0" y="5555.666666666667" />
+              <point x="576.0" y="5760.209496676163" />
+              <point x="2131.0" y="5760.209496676163" />
+              <point x="2211.0" y="5715.817830009497" />
+              <point x="-124.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-impl:jar:2.2.7">
+              <point x="108.5" y="-5.25" />
+              <point x="993.0" y="2176.25" />
+              <point x="1073.0" y="2028.886111111111" />
+              <point x="-80.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3">
+              <point x="111.0" y="-0.0" />
+              <point x="-79.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/org.slf4j:jcl-over-slf4j:jar:1.7.25" target="top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="98.5" y="-0.0" />
+              <point x="993.0" y="4270.75" />
+              <point x="1073.0" y="4276.0" />
+              <point x="-74.5" y="-14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.3.2">
+              <point x="0.0" y="0.0" />
+              <point x="1241.5" y="2421.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0">
+              <point x="75.0" y="-0.0" />
+              <point x="496.0" y="5540.733333333334" />
+              <point x="576.0" y="5556.5928300094965" />
+              <point x="-100.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0">
+              <point x="104.5" y="24.888888888888687" />
+              <point x="496.0" y="1365.6388888888887" />
+              <point x="576.0" y="2167.5" />
+              <point x="-108.5" y="-14.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="60.0" y="-2.666666666666515" />
+              <point x="200.0" y="3084.0" />
+              <point x="1782.0" y="3084.0" />
+              <point x="1862.0" y="3237.3539411206075" />
+              <point x="-93.0" y="-25.199999999999818" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-hazelcast:jar:1.4.0">
+              <point x="75.0" y="-22.399999999999977" />
+              <point x="496.0" y="5518.333333333334" />
+              <point x="576.0" y="5069.743566001897" />
+              <point x="-111.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2" target="org.activiti:activiti-spring:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="0.0" y="0.0" />
+              <point x="1241.5" y="1557.25" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="134.5" y="14.0" />
+              <point x="2490.0" y="5365.233333333334" />
+              <point x="-86.0" y="-6.222222222222172" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final">
+              <point x="111.0" y="-24.888888888888914" />
+              <point x="496.0" y="3684.6111111111113" />
+              <point x="576.0" y="3325.5" />
+              <point x="-193.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="104.5" y="-18.66666666666697" />
+              <point x="496.0" y="1322.083333333333" />
+              <point x="576.0" y="1052.75" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE">
+              <point x="109.5" y="7.0" />
+              <point x="-126.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/commons-beanutils:commons-beanutils:jar:1.9.3">
+              <point x="125.5" y="22.40000000000009" />
+              <point x="-138.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="93.5" y="-0.0" />
+              <point x="2131.0" y="5211.483333333334" />
+              <point x="2211.0" y="5190.841666666666" />
+              <point x="2490.0" y="5190.841666666666" />
+              <point x="-86.0" y="-18.666666666666515" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm:jar:3.3">
+              <point x="79.5" y="-0.0" />
+              <point x="2131.0" y="143.25" />
+              <point x="2211.0" y="148.5" />
+              <point x="-53.5" y="-14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-core:jar:2.7.5">
+              <point x="142.0" y="18.66666666666697" />
+              <point x="1862.0" y="2463.75116334283" />
+              <point x="2131.0" y="2463.75116334283" />
+              <point x="2211.0" y="1774.0011633428298" />
+              <point x="-99.5" y="21.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="121.5" y="-17.5" />
+              <point x="496.0" y="4676.5" />
+              <point x="576.0" y="4309.25" />
+              <point x="993.0" y="4309.25" />
+              <point x="1073.0" y="4304.0" />
+              <point x="-74.5" y="14.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="109.5" y="21.0" />
+              <point x="993.0" y="4195.75" />
+              <point x="1073.0" y="4237.0" />
+              <point x="1782.0" y="4237.0" />
+              <point x="1862.0" y="3287.753941120607" />
+              <point x="-93.0" y="25.199999999999818" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/com.alibaba:fastjson:jar:1.2.37">
+              <point x="121.5" y="3.5" />
+              <point x="496.0" y="4697.5" />
+              <point x="576.0" y="4742.0" />
+              <point x="-73.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0">
+              <point x="108.5" y="-22.75" />
+              <point x="993.0" y="2158.75" />
+              <point x="1073.0" y="1672.5" />
+              <point x="1410.0" y="1672.5" />
+              <point x="-136.0" y="14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0/commons-dbcp:commons-dbcp:jar:1.4" target="org.activiti:activiti-spring:jar:6.0.0/commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4">
+              <point x="116.0" y="-0.0" />
+              <point x="-113.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-web:jar:3.0.5.RELEASE">
+              <point x="144.5" y="-4.666666666666515" />
+              <point x="576.0" y="380.75" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0/org.apache.shiro:shiro-cache:jar:1.4.0">
+              <point x="107.0" y="-14.0" />
+              <point x="993.0" y="5388.8428300094965" />
+              <point x="1073.0" y="5383.5928300094965" />
+              <point x="1782.0" y="5383.5928300094965" />
+              <point x="1862.0" y="5211.483333333334" />
+              <point x="-93.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0/org.aspectj:aspectjrt:jar:1.8.9">
+              <point x="100.0" y="-18.66666666666663" />
+              <point x="993.0" y="5537.92616334283" />
+              <point x="1073.0" y="5518.0928300094965" />
+              <point x="-77.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-aspectj:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="100.0" y="-0.0" />
+              <point x="1410.0" y="5556.5928300094965" />
+              <point x="1490.0" y="5611.067830009497" />
+              <point x="-86.0" y="-14.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="60.0" y="5.333333333333485" />
+              <point x="200.0" y="3287.0" />
+              <point x="1410.0" y="3287.0" />
+              <point x="1490.0" y="3328.25116334283" />
+              <point x="-101.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="104.5" y="18.66666666666697" />
+              <point x="496.0" y="1359.416666666667" />
+              <point x="576.0" y="1571.25" />
+              <point x="-119.0" y="14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0/net.sf.ehcache:ehcache-core:jar:2.6.11" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0/net.sf.ehcache:ehcache-core:jar:2.6.11/org.slf4j:slf4j-api:jar:1.6.1">
+              <point x="104.0" y="-0.0" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="124.5" y="-0.0" />
+              <point x="2490.0" y="5715.817830009497" />
+              <point x="-86.0" y="12.444444444444457" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
+              <point x="111.0" y="12.444444444444343" />
+              <point x="496.0" y="3721.9444444444443" />
+              <point x="576.0" y="3901.5" />
+              <point x="-145.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.aspectj:aspectjweaver:jar:1.8.10">
+              <point x="60.0" y="-26.666666666666515" />
+              <point x="200.0" y="175.19926400759869" />
+              <point x="-106.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="101.5" y="-0.0" />
+              <point x="1782.0" y="3328.25116334283" />
+              <point x="1862.0" y="3265.3539411206075" />
+              <point x="-93.0" y="2.800000000000182" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-core:jar:2.7.5">
+              <point x="123.5" y="-14.0" />
+              <point x="2211.0" y="1760.0011633428298" />
+              <point x="-99.5" y="7.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0">
+              <point x="158.5" y="22.399999999999636" />
+              <point x="-142.0" y="-18.66666666666697" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.6" target="org.slf4j:slf4j-log4j12:jar:1.7.6/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="98.0" y="-14.0" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0">
+              <point x="86.0" y="-8.0" />
+              <point x="1782.0" y="5617.067830009497" />
+              <point x="-126.5" y="14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/joda-time:joda-time:jar:2.6">
+              <point x="108.5" y="-8.75" />
+              <point x="993.0" y="2172.75" />
+              <point x="1073.0" y="1941.5000000000002" />
+              <point x="-84.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="91.5" y="21.0" />
+              <point x="496.0" y="3247.6159306742657" />
+              <point x="576.0" y="3279.0" />
+              <point x="1410.0" y="3279.0" />
+              <point x="1490.0" y="3320.25116334283" />
+              <point x="-101.5" y="-8.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-core:jar:1.4.0">
+              <point x="86.0" y="8.0" />
+              <point x="1782.0" y="5633.067830009497" />
+              <point x="1862.0" y="5691.234496676163" />
+              <point x="2131.0" y="5691.234496676163" />
+              <point x="-124.5" y="-18.666666666666515" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/joda-time:joda-time:jar:2.6">
+              <point x="117.0" y="14.0" />
+              <point x="1410.0" y="1821.0000000000002" />
+              <point x="1490.0" y="1922.8333333333337" />
+              <point x="-84.0" y="-18.666666666666515" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12" target="top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="56.0" y="-0.0" />
+              <point x="-108.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:jcl-over-slf4j:jar:1.7.5">
+              <point x="62.0" y="7.0" />
+              <point x="993.0" y="4633.0" />
+              <point x="1073.0" y="4674.0" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-quartz:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-quartz:jar:1.4.0/org.opensymphony.quartz:quartz:jar:1.6.1">
+              <point x="96.5" y="-14.0" />
+              <point x="993.0" y="5292.8428300094965" />
+              <point x="1073.0" y="5287.5928300094965" />
+              <point x="-65.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.slf4j:jcl-over-slf4j:jar:1.7.25">
+              <point x="108.5" y="19.25" />
+              <point x="993.0" y="2200.75" />
+              <point x="1073.0" y="2709.5" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="com.alibaba:druid:jar:1.1.2">
+              <point x="60.0" y="26.666666666666515" />
+              <point x="200.0" y="5732.733333333334" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0">
+              <point x="86.0" y="24.0" />
+              <point x="1782.0" y="5649.067830009497" />
+              <point x="-125.5" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-web:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="85.0" y="-0.0" />
+              <point x="1410.0" y="5684.509496676163" />
+              <point x="1490.0" y="5629.734496676163" />
+              <point x="-86.0" y="4.666666666666629" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.slf4j:jcl-over-slf4j:jar:1.7.6">
+              <point x="158.5" y="-0.0" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/antlr:antlr:jar:2.7.7">
+              <point x="111.0" y="-0.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="90.0" y="14.0" />
+              <point x="1782.0" y="4111.75" />
+              <point x="1862.0" y="3270.953941120607" />
+              <point x="-93.0" y="8.400000000000091" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpmime:jar:4.5.3" target="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3">
+              <point x="84.5" y="-0.0" />
+              <point x="993.0" y="4970.442830009495" />
+              <point x="1073.0" y="4965.858333333333" />
+              <point x="-83.0" y="14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="158.5" y="-11.199999999999818" />
+              <point x="1490.0" y="2037.5000000000002" />
+              <point x="-119.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-orm:jar:4.2.5.RELEASE">
+              <point x="104.5" y="-12.444444444444343" />
+              <point x="496.0" y="1328.3055555555557" />
+              <point x="576.0" y="1148.75" />
+              <point x="-91.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+              <point x="91.5" y="-21.0" />
+              <point x="496.0" y="3205.6159306742657" />
+              <point x="576.0" y="3161.0" />
+              <point x="-79.5" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0">
+              <point x="134.5" y="-14.0" />
+              <point x="2211.0" y="5306.091666666666" />
+              <point x="-124.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.apache.struts:struts2-core:jar:2.3.32">
+              <point x="60.0" y="-24.0" />
+              <point x="200.0" y="213.69926400759869" />
+              <point x="496.0" y="213.69926400759869" />
+              <point x="576.0" y="170.08333333333303" />
+              <point x="-95.5" y="-18.66666666666697" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0/org.activiti:activiti-dmn-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-core:jar:2.7.5">
+              <point x="135.0" y="-14.0" />
+              <point x="1862.0" y="1773.7500000000002" />
+              <point x="2131.0" y="1773.7500000000002" />
+              <point x="2211.0" y="1746.0011633428298" />
+              <point x="-99.5" y="-7.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32">
+              <point x="60.0" y="-21.333333333333485" />
+              <point x="-144.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="108.5" y="-12.25" />
+              <point x="993.0" y="2169.25" />
+              <point x="1073.0" y="1903.0000000000002" />
+              <point x="-101.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm-commons:jar:3.3">
+              <point x="91.0" y="-21.0" />
+              <point x="1410.0" y="167.75" />
+              <point x="1490.0" y="143.25" />
+              <point x="-111.0" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/com.fasterxml:classmate:jar:1.3.0">
+              <point x="111.0" y="-6.222222222222172" />
+              <point x="496.0" y="3703.2777777777783" />
+              <point x="576.0" y="3613.5" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final">
+              <point x="111.0" y="18.666666666666742" />
+              <point x="496.0" y="3728.166666666667" />
+              <point x="-208.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.slf4j:jcl-over-slf4j:jar:1.7.25">
+              <point x="104.5" y="6.222222222222626" />
+              <point x="496.0" y="1346.9722222222226" />
+              <point x="576.0" y="1436.75" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-context:jar:4.3.10.RELEASE">
+              <point x="60.0" y="16.0" />
+              <point x="200.0" y="4188.75" />
+              <point x="-109.5" y="14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0">
+              <point x="75.0" y="-11.200000000000045" />
+              <point x="496.0" y="5529.533333333334" />
+              <point x="576.0" y="5249.0928300094965" />
+              <point x="1782.0" y="5249.0928300094965" />
+              <point x="-126.5" y="-14.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32/asm:asm:jar:3.3">
+              <point x="91.0" y="-7.0" />
+              <point x="2131.0" y="181.75" />
+              <point x="2211.0" y="176.5" />
+              <point x="-53.5" y="14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="86.0" y="-0.0" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32">
+              <point x="95.5" y="-0.0" />
+              <point x="-91.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-core:jar:3.0.5.RELEASE">
+              <point x="144.5" y="4.666666666666515" />
+              <point x="576.0" y="476.75" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.apache.shiro:shiro-all:jar:1.4.0">
+              <point x="60.0" y="21.333333333333485" />
+              <point x="200.0" y="5540.733333333334" />
+              <point x="-75.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-ehcache:jar:1.4.0">
+              <point x="75.0" y="-3.7333333333333485" />
+              <point x="496.0" y="5537.0" />
+              <point x="576.0" y="5402.8428300094965" />
+              <point x="-107.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0">
+              <point x="108.5" y="-15.75" />
+              <point x="993.0" y="2165.75" />
+              <point x="1073.0" y="1807.0000000000002" />
+              <point x="-117.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0">
+              <point x="75.0" y="22.40000000000009" />
+              <point x="496.0" y="5563.133333333333" />
+              <point x="576.0" y="5921.817830009497" />
+              <point x="-125.5" y="14.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="93.0" y="-0.0" />
+              <point x="2131.0" y="3262.5539411206073" />
+              <point x="-130.5" y="-14.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer-spring:jar:5.5.1">
+              <point x="121.5" y="10.5" />
+              <point x="496.0" y="4704.5" />
+              <point x="576.0" y="4838.0" />
+              <point x="-100.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="125.5" y="11.199999999999818" />
+              <point x="2211.0" y="5946.317830009497" />
+              <point x="2490.0" y="5946.317830009497" />
+              <point x="-86.0" y="24.888888888888914" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2" target="org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="0.0" y="0.0" />
+              <point x="1241.5" y="668.75" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-core:jar:1.4.0">
+              <point x="126.5" y="-14.0" />
+              <point x="2211.0" y="5324.758333333333" />
+              <point x="-124.5" y="18.666666666666686" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0">
+              <point x="108.5" y="15.75" />
+              <point x="993.0" y="2197.25" />
+              <point x="-161.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="0.0" y="0.0" />
+              <point x="1241.5" y="2037.5000000000002" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="109.5" y="-7.0" />
+              <point x="1410.0" y="4169.25" />
+              <point x="1490.0" y="3352.25116334283" />
+              <point x="-101.5" y="24.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0">
+              <point x="108.5" y="-1.75" />
+              <point x="993.0" y="2179.75" />
+              <point x="-158.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-json-plugin:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32">
+              <point x="133.5" y="-14.0" />
+              <point x="496.0" y="654.75" />
+              <point x="576.0" y="207.41666666666697" />
+              <point x="-95.5" y="18.66666666666697" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="79.5" y="-14.0" />
+              <point x="1782.0" y="3161.0" />
+              <point x="1862.0" y="3248.5539411206073" />
+              <point x="-93.0" y="-14.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="126.5" y="-0.0" />
+              <point x="1782.0" y="4180.25" />
+              <point x="1862.0" y="3282.1539411206068" />
+              <point x="-93.0" y="19.59999999999991" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="92.0" y="-21.0" />
+              <point x="496.0" y="4096.0" />
+              <point x="576.0" y="4059.25" />
+              <point x="1410.0" y="4059.25" />
+              <point x="1490.0" y="3336.25116334283" />
+              <point x="-101.5" y="8.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/commons-io:commons-io:jar:2.2">
+              <point x="95.5" y="-11.199999999999818" />
+              <point x="993.0" y="177.55000000000018" />
+              <point x="1073.0" y="66.5" />
+              <point x="1410.0" y="66.5" />
+              <point x="1490.0" y="61.25" />
+              <point x="-99.5" y="14.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="92.0" y="-7.0" />
+              <point x="496.0" y="4110.0" />
+              <point x="576.0" y="4097.75" />
+              <point x="-90.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="90.0" y="-14.0" />
+              <point x="1410.0" y="4083.75" />
+              <point x="1490.0" y="3344.25116334283" />
+              <point x="-101.5" y="16.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-test:jar:4.3.10.RELEASE">
+              <point x="60.0" y="-0.0" />
+              <point x="-89.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/ognl:ognl:jar:3.0.19">
+              <point x="95.5" y="11.199999999999818" />
+              <point x="993.0" y="199.94999999999982" />
+              <point x="1073.0" y="328.05116334283" />
+              <point x="-56.0" y="14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0/org.activiti:activiti-dmn-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5">
+              <point x="135.0" y="14.0" />
+              <point x="-123.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-tx:jar:4.2.5.RELEASE">
+              <point x="104.5" y="-0.0" />
+              <point x="-79.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.10.RELEASE" target="org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="109.5" y="-21.0" />
+              <point x="993.0" y="4153.75" />
+              <point x="1073.0" y="4116.416666666667" />
+              <point x="-90.0" y="18.666666666666515" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0">
+              <point x="75.0" y="18.666666666666515" />
+              <point x="496.0" y="5559.4" />
+              <point x="576.0" y="5820.8011633428305" />
+              <point x="2131.0" y="5820.8011633428305" />
+              <point x="2211.0" y="5811.817830009497" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.6">
+              <point x="158.5" y="11.199999999999818" />
+              <point x="1490.0" y="2275.65116334283" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="86.0" y="-0.0" />
+              <point x="1782.0" y="5625.067830009497" />
+              <point x="1862.0" y="5677.317830009497" />
+              <point x="2490.0" y="5677.317830009497" />
+              <point x="-86.0" y="6.222222222222172" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="93.0" y="-0.0" />
+              <point x="2490.0" y="5811.817830009497" />
+              <point x="-86.0" y="18.666666666666686" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-image-generator:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="161.5" y="14.0" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3" target="org.springframework:spring-core:jar:4.3.10.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="83.0" y="18.666666666666515" />
+              <point x="1410.0" y="4970.525" />
+              <point x="1490.0" y="5002.07689933523" />
+              <point x="2131.0" y="5002.07689933523" />
+              <point x="-130.5" y="14.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/junit:junit:jar:4.12">
+              <point x="121.5" y="-10.5" />
+              <point x="496.0" y="4683.5" />
+              <point x="576.0" y="4386.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1">
+              <point x="138.0" y="-0.0" />
+              <point x="-146.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.activiti:activiti-engine:jar:6.0.0">
+              <point x="60.0" y="-8.0" />
+              <point x="200.0" y="2195.5" />
+              <point x="-108.5" y="14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-spring:jar:1.4.0">
+              <point x="75.0" y="3.7333333333333485" />
+              <point x="496.0" y="5544.466666666667" />
+              <point x="576.0" y="5660.009496676163" />
+              <point x="-96.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0/aopalliance:aopalliance:jar:1.0">
+              <point x="61.0" y="14.0" />
+              <point x="1782.0" y="6031.817830009497" />
+              <point x="1862.0" y="6099.817830009497" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="91.5" y="7.0" />
+              <point x="496.0" y="3233.6159306742657" />
+              <point x="576.0" y="3252.0" />
+              <point x="1782.0" y="3252.0" />
+              <point x="1862.0" y="3259.753941120607" />
+              <point x="-93.0" y="-2.800000000000182" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="top.zywork:zywork-common:jar:1.0">
+              <point x="60.0" y="18.666666666666515" />
+              <point x="200.0" y="4694.0" />
+              <point x="-121.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-hazelcast:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-hazelcast:jar:1.4.0/com.hazelcast:hazelcast:jar:3.7.2">
+              <point x="111.5" y="14.0" />
+              <point x="993.0" y="5083.743566001897" />
+              <point x="1073.0" y="5088.993566001897" />
+              <point x="-80.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-process-validation:jar:6.0.0">
+              <point x="108.5" y="8.75" />
+              <point x="993.0" y="2190.25" />
+              <point x="-168.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-orm:jar:4.3.10.RELEASE">
+              <point x="60.0" y="2.666666666666515" />
+              <point x="200.0" y="3226.6159306742657" />
+              <point x="-91.5" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.activiti:activiti-spring:jar:6.0.0">
+              <point x="60.0" y="-10.666666666666515" />
+              <point x="200.0" y="1340.75" />
+              <point x="-104.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-quartz:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="96.5" y="14.0" />
+              <point x="993.0" y="5320.8428300094965" />
+              <point x="1073.0" y="5326.0928300094965" />
+              <point x="1410.0" y="5326.0928300094965" />
+              <point x="1490.0" y="5601.734496676163" />
+              <point x="-86.0" y="-23.333333333333485" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-spring:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-web:jar:1.4.0">
+              <point x="96.0" y="14.0" />
+              <point x="993.0" y="5674.009496676163" />
+              <point x="1073.0" y="5670.509496676163" />
+              <point x="-85.0" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="75.0" y="-26.133333333333212" />
+              <point x="496.0" y="5514.6" />
+              <point x="576.0" y="5031.243566001897" />
+              <point x="2490.0" y="5031.243566001897" />
+              <point x="-86.0" y="-24.888888888888914" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="92.5" y="-0.0" />
+              <point x="1782.0" y="3213.5" />
+              <point x="1862.0" y="3254.1539411206068" />
+              <point x="-93.0" y="-8.400000000000091" />
+            </edge>
+            <edge source="com.sun.mail:javax.mail:jar:1.6.0" target="com.sun.mail:javax.mail:jar:1.6.0/javax.activation:activation:jar:1.1">
+              <point x="83.5" y="-0.0" />
+              <point x="1782.0" y="3045.5" />
+              <point x="1862.0" y="2958.6372744539403" />
+              <point x="-83.5" y="14.0" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.6" target="log4j:log4j:jar:1.2.17">
+              <point x="98.0" y="14.0" />
+              <point x="496.0" y="792.75" />
+              <point x="576.0" y="846.75" />
+              <point x="-58.5" y="-14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.mybatis:mybatis:jar:3.4.2">
+              <point x="108.5" y="1.75" />
+              <point x="993.0" y="2183.25" />
+              <point x="1073.0" y="2229.5" />
+              <point x="-73.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="111.0" y="6.222222222222172" />
+              <point x="496.0" y="3715.7222222222226" />
+              <point x="576.0" y="3805.5" />
+              <point x="-66.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.slf4j:slf4j-api:jar:1.7.5">
+              <point x="62.0" y="-7.0" />
+              <point x="993.0" y="4619.0" />
+              <point x="1073.0" y="4578.0" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-json-plugin:jar:2.3.32" target="org.apache.struts:struts2-json-plugin:jar:2.3.32/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="133.5" y="14.0" />
+              <point x="-119.0" y="14.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="111.0" y="24.888888888888914" />
+              <point x="496.0" y="3734.388888888889" />
+              <point x="576.0" y="4036.0" />
+              <point x="993.0" y="4036.0" />
+              <point x="1073.0" y="4030.75" />
+              <point x="-105.0" y="14.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE" target="org.springframework:spring-beans:jar:4.3.10.RELEASE">
+              <point x="79.5" y="14.0" />
+              <point x="1410.0" y="3189.0" />
+              <point x="1490.0" y="3304.25116334283" />
+              <point x="-101.5" y="-24.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32">
+              <point x="144.5" y="-23.333333333333485" />
+              <point x="576.0" y="188.75" />
+              <point x="-95.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject.extensions:guice-multibindings:jar:3.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0/com.google.inject:guice:jar:3.0">
+              <point x="139.5" y="-0.0" />
+              <point x="1410.0" y="6042.317830009497" />
+              <point x="1490.0" y="6031.817830009497" />
+              <point x="-61.0" y="14.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.slf4j:slf4j-log4j12:jar:1.7.6">
+              <point x="60.0" y="-16.0" />
+              <point x="200.0" y="778.75" />
+              <point x="-98.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-jdbc:jar:4.2.5.RELEASE">
+              <point x="104.5" y="-6.222222222222626" />
+              <point x="496.0" y="1334.5277777777774" />
+              <point x="576.0" y="1244.75" />
+              <point x="-92.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="89.5" y="-0.0" />
+              <point x="1782.0" y="3122.5" />
+              <point x="1862.0" y="3242.953941120607" />
+              <point x="-93.0" y="-19.59999999999991" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/commons-fileupload:commons-fileupload:jar:1.3.2" target="org.apache.struts:struts2-core:jar:2.3.32/commons-io:commons-io:jar:2.2">
+              <point x="143.0" y="-0.0" />
+              <point x="1410.0" y="28.0" />
+              <point x="1490.0" y="33.25" />
+              <point x="-99.5" y="-14.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/org.slf4j:jcl-over-slf4j:jar:1.7.25">
+              <point x="121.5" y="-24.5" />
+              <point x="496.0" y="4669.5" />
+              <point x="576.0" y="4270.75" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/commons-fileupload:commons-fileupload:jar:1.3.2">
+              <point x="95.5" y="-22.399999999999636" />
+              <point x="993.0" y="166.35000000000036" />
+              <point x="1073.0" y="28.0" />
+              <point x="-143.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1" target="top.zywork:zywork-common:jar:1.0/net.sf.dozer:dozer:jar:5.5.1/org.apache.commons:commons-lang3:jar:3.2.1">
+              <point x="62.0" y="-21.0" />
+              <point x="993.0" y="4605.0" />
+              <point x="1073.0" y="4482.0" />
+              <point x="-119.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-web:jar:4.3.10.RELEASE">
+              <point x="60.0" y="13.333333333333485" />
+              <point x="200.0" y="4117.0" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-spring:jar:6.0.0" target="org.activiti:activiti-spring:jar:6.0.0/org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="104.5" y="12.444444444444343" />
+              <point x="496.0" y="1353.1944444444443" />
+              <point x="576.0" y="1532.75" />
+              <point x="-109.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-databind:jar:2.7.5">
+              <point x="142.0" y="-18.66666666666697" />
+              <point x="-123.5" y="18.66666666666697" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.hibernate:hibernate-core:jar:5.2.10.Final">
+              <point x="60.0" y="8.0" />
+              <point x="200.0" y="3709.5" />
+              <point x="-111.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/org.freemarker:freemarker:jar:2.3.22">
+              <point x="95.5" y="22.399999999999636" />
+              <point x="993.0" y="211.14999999999964" />
+              <point x="1073.0" y="366.55116334283" />
+              <point x="-90.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.springframework:spring-aop:jar:4.3.10.RELEASE">
+              <point x="60.0" y="10.666666666666515" />
+              <point x="200.0" y="4048.25" />
+              <point x="993.0" y="4048.25" />
+              <point x="1073.0" y="4079.083333333334" />
+              <point x="-90.0" y="-18.666666666666515" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3" target="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.9">
+              <point x="83.0" y="-18.666666666666515" />
+              <point x="1410.0" y="4933.191666666667" />
+              <point x="1490.0" y="4867.57689933523" />
+              <point x="-121.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="108.5" y="22.75" />
+              <point x="993.0" y="2204.25" />
+              <point x="1073.0" y="2805.5" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-spring:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="96.0" y="-14.0" />
+              <point x="1410.0" y="5646.009496676163" />
+              <point x="1490.0" y="5620.401163342831" />
+              <point x="-86.0" y="-4.666666666666515" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="208.5" y="-0.0" />
+              <point x="1073.0" y="4002.75" />
+              <point x="-105.0" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-cipher:jar:1.4.0">
+              <point x="86.0" y="-16.0" />
+              <point x="1782.0" y="5609.067830009497" />
+              <point x="-134.5" y="14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-dmn-api:jar:6.0.0/org.activiti:activiti-dmn-model:jar:6.0.0">
+              <point x="117.0" y="-14.0" />
+              <point x="-135.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-crypto-hash:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-lang:jar:1.4.0">
+              <point x="126.5" y="14.0" />
+              <point x="2490.0" y="5461.233333333334" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-event:jar:1.4.0">
+              <point x="86.0" y="16.0" />
+              <point x="1782.0" y="5641.067830009497" />
+              <point x="1862.0" y="5733.509496676163" />
+              <point x="2131.0" y="5733.509496676163" />
+              <point x="2211.0" y="5793.151163342831" />
+              <point x="-93.0" y="-18.666666666666515" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="org.apache.struts:struts2-json-plugin:jar:2.3.32">
+              <point x="60.0" y="-18.666666666666515" />
+              <point x="200.0" y="668.75" />
+              <point x="-133.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.10.RELEASE" target="org.springframework:spring-core:jar:4.3.10.RELEASE">
+              <point x="92.0" y="7.0" />
+              <point x="496.0" y="4124.0" />
+              <point x="576.0" y="4136.25" />
+              <point x="1782.0" y="4136.25" />
+              <point x="1862.0" y="3276.5539411206073" />
+              <point x="-93.0" y="14.0" />
+            </edge>
+            <edge source="top.zywork:SSH1:1.0" target="log4j:log4j:jar:1.2.17">
+              <point x="60.0" y="-13.333333333333485" />
+              <point x="200.0" y="874.75" />
+              <point x="-58.5" y="14.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-jdbc:jar:4.3.10.RELEASE" target="org.springframework:spring-orm:jar:4.3.10.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE">
+              <point x="92.5" y="-18.666666666666742" />
+              <point x="993.0" y="3194.8333333333335" />
+              <point x="1073.0" y="3189.0" />
+              <point x="-79.5" y="14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4" target="org.activiti:activiti-engine:jar:6.0.0/org.apache.commons:commons-email:jar:1.4/com.sun.mail:javax.mail:jar:1.5.2">
+              <point x="118.5" y="14.0" />
+              <point x="1410.0" y="2915.5" />
+              <point x="1490.0" y="2949.5" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-process-validation:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0">
+              <point x="168.5" y="-0.0" />
+              <point x="-142.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="92.0" y="-18.666666666666515" />
+              <point x="993.0" y="5963.401163342831" />
+              <point x="1073.0" y="5937.234496676163" />
+              <point x="1410.0" y="5937.234496676163" />
+              <point x="1490.0" y="5648.401163342831" />
+              <point x="-86.0" y="23.333333333333485" />
+            </edge>
+            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.32" target="org.apache.struts:struts2-spring-plugin:jar:2.3.32/org.springframework:spring-context:jar:3.0.5.RELEASE">
+              <point x="144.5" y="-14.0" />
+              <point x="576.0" y="284.75" />
+              <point x="-109.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-guice:jar:1.4.0">
+              <point x="75.0" y="26.133333333333326" />
+              <point x="496.0" y="5566.866666666667" />
+              <point x="576.0" y="5982.067830009497" />
+              <point x="-92.0" y="-0.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-api:jar:6.0.0">
+              <point x="108.5" y="-26.25" />
+              <point x="993.0" y="2155.25" />
+              <point x="1073.0" y="1634.0" />
+              <point x="-118.0" y="-0.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-config-ogdl:jar:1.4.0/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="125.5" y="-0.0" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:5.2.10.Final" target="org.hibernate:hibernate-core:jar:5.2.10.Final/org.jboss:jandex:jar:2.0.3.Final">
+              <point x="111.0" y="-18.666666666666742" />
+              <point x="496.0" y="3690.8333333333335" />
+              <point x="576.0" y="3421.5" />
+              <point x="-67.0" y="-0.0" />
+            </edge>
+            <edge source="top.zywork:zywork-common:jar:1.0" target="top.zywork:zywork-common:jar:1.0/org.apache.httpcomponents:httpclient:jar:4.5.3">
+              <point x="121.5" y="17.5" />
+              <point x="496.0" y="4711.5" />
+              <point x="576.0" y="4931.942830009495" />
+              <point x="993.0" y="4931.942830009495" />
+              <point x="1073.0" y="4937.858333333333" />
+              <point x="-83.0" y="-14.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.apache.struts:struts2-core:jar:2.3.32/ognl:ognl:jar:3.0.19">
+              <point x="91.0" y="7.0" />
+              <point x="1410.0" y="195.75" />
+              <point x="1490.0" y="300.05116334283" />
+              <point x="-56.0" y="-14.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-form-model:jar:6.0.0/com.fasterxml.jackson.core:jackson-core:jar:2.7.5">
+              <point x="136.0" y="-14.0" />
+              <point x="2131.0" y="1639.25" />
+              <point x="2211.0" y="1732.0011633428298" />
+              <point x="-99.5" y="-21.0" />
+            </edge>
+            <edge source="org.activiti:activiti-engine:jar:6.0.0" target="org.activiti:activiti-engine:jar:6.0.0/de.odysseus.juel:juel-api:jar:2.2.7">
+              <point x="108.5" y="-19.25" />
+              <point x="993.0" y="2162.25" />
+              <point x="1073.0" y="1711.0" />
+              <point x="-72.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.struts:struts2-core:jar:2.3.32/org.apache.struts.xwork:xwork-core:jar:2.3.32" target="org.activiti:activiti-spring:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.2">
+              <point x="91.0" y="21.0" />
+              <point x="1410.0" y="209.75" />
+              <point x="1490.0" y="1543.25" />
+              <point x="-119.0" y="-14.0" />
+            </edge>
+            <edge source="org.apache.shiro:shiro-all:jar:1.4.0" target="org.apache.shiro:shiro-all:jar:1.4.0/org.apache.shiro:shiro-core:jar:1.4.0">
+              <point x="75.0" y="11.200000000000045" />
+              <point x="496.0" y="5551.933333333333" />
+              <point x="576.0" y="5723.009496676163" />
+              <point x="1410.0" y="5723.009496676163" />
+              <point x="1490.0" y="5639.067830009497" />
+              <point x="-86.0" y="14.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1393.0" y="2066.0" />
+          <SelectedNodes>
+            <node>org.activiti:activiti-engine:jar:6.0.0/org.activiti:activiti-bpmn-converter:jar:6.0.0/org.activiti:activiti-bpmn-model:jar:6.0.0/org.apache.commons:commons-lang3:jar:3.3.2</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="70" column="20" lean-forward="true" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zywork-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1749">
+          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1287">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/spring-hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/bpmn/test.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/bpmn/a.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3152">
+          <caret line="57" column="50" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH1/src/main/resources/config/spring-activiti.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSH2/src/main/resources/config/spring-activiti.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/src/main/resources/config/spring-activiti.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1692,7 +3060,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27137548" />
+                <option value="0.2103064" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1705,7 +3073,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27137548" />
+                <option value="0.2103064" />
               </list>
             </option>
           </splitter-proportions>
@@ -1717,7 +3085,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.24606414" />
+                <option value="0.2103064" />
               </list>
             </option>
           </splitter-proportions>
@@ -1729,7 +3097,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27521867" />
+                <option value="0.2103064" />
               </list>
             </option>
           </splitter-proportions>
@@ -1761,11 +3129,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.apache.shiro:shiro-all:1.4.0</last-edited>
+          <last-edited>Maven: org.apache.commons:commons-lang3:3.2.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27137548" />
+                <option value="0.2103064" />
               </list>
             </option>
           </splitter-proportions>

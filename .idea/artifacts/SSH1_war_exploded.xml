@@ -26,7 +26,6 @@
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.42" />
           <element id="library" level="project" name="Maven: net.sf.dozer:dozer:5.5.1" />
           <element id="library" level="project" name="Maven: ognl:ognl:3.0.19" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.2" />
           <element id="library" level="project" name="Maven: org.apache.struts.xwork:xwork-core:2.3.32" />
           <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.3.32" />
           <element id="library" level="project" name="Maven: org.apache.struts:struts2-json-plugin:2.3.32" />
@@ -85,6 +84,30 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.9" />
           <element id="library" level="project" name="Maven: org.opensymphony.quartz:quartz:1.6.1" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-all:1.4.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.5" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.0" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: de.odysseus.juel:juel-api:2.2.7" />
+          <element id="library" level="project" name="Maven: de.odysseus.juel:juel-impl:2.2.7" />
+          <element id="library" level="project" name="Maven: de.odysseus.juel:juel-spi:2.2.7" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.6" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-converter:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-model:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-dmn-api:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-dmn-model:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-engine:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-form-api:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-form-model:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-image-generator:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-process-validation:6.0.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-spring:6.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-email:1.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zywork-common/web/Web" />
