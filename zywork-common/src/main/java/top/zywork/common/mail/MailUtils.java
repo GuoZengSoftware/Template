@@ -18,14 +18,14 @@ import java.util.Properties;
  * @author 王振宇
  * @version 1.0
  */
-public class MailSender {
+public class MailUtils {
 
 	/**
 	 * 根据邮件配置信息及邮件对象发送邮件
 	 * @param mailConfigPath 邮件配置信息，以classpath:/开头或/WEB-INF开头
 	 * @param mail Mail邮件对象
 	 */
-	public void sendMail(String mailConfigPath, Mail mail) {
+	public static void sendMail(String mailConfigPath, Mail mail) {
 		ConfigUtils configUtils = new ConfigUtils();
 		Properties props = configUtils.build(mailConfigPath);
 		Session session = Session.getInstance(props,
@@ -51,7 +51,7 @@ public class MailSender {
 	 * @return Message 邮件消息对象
 	 * @throws MessagingException 消息异常
 	 */
-	private Message buildMessage(Session session, Mail mail) throws MessagingException {
+	private static Message buildMessage(Session session, Mail mail) throws MessagingException {
 		Message msg = new MimeMessage(session);
 		msg.setFrom(MailAddressUtils.toAddress(mail.getFrom()));
 		msg.setSubject(mail.getSubject());

@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a5a346d-4c75-4470-b146-75ef20938da4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/Mail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailAddressUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailAuthenticator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/constant/MailConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/resources/config/mail.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailSenderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/7dd2d8d7-3f1c-463d-b5ab-c13d902dc28f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7dd2d8d7-3f1c-463d-b5ab-c13d902dc28f.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailSender.java" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailSenderTest.java" afterPath="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailUtilsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ConfigUtils.java" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ConfigUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/SSH2/target/" />
     <ignored path="$PROJECT_DIR$/SSH1/target/" />
@@ -139,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/UserDO.java" />
-        <option value="$PROJECT_DIR$/SSH2/src/main/java/top/zywork/dos/UserRoleDO.java" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/RoleDAO.java" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/PermissionDAO.java" />
         <option value="$PROJECT_DIR$/SSM/src/main/java/top/zywork/dao/ModuleDAO.java" />
@@ -183,13 +173,15 @@
         <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/constant/MailConstants.java" />
         <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailAddressUtils.java" />
         <option value="$PROJECT_DIR$/zywork-common/target/test-classes/mail.properties" />
-        <option value="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailSenderTest.java" />
         <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ConfigUtils.java" />
         <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/Mail.java" />
         <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailAccount.java" />
         <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailAuthenticator.java" />
-        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailSender.java" />
         <option value="$PROJECT_DIR$/zywork-common/src/main/resources/config/mail.properties" />
+        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailSender.java" />
+        <option value="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailUtils.java" />
+        <option value="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailSenderTest.java" />
+        <option value="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailUtilsTest.java" />
       </list>
     </option>
   </component>
@@ -249,38 +241,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zywork-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test-classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,32 +333,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zywork-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MailSenderTest.testSendMail">
+  <component name="RunManager" selected="JUnit.MailUtilsTest.testSendMail">
     <configuration default="false" name="PermissionServiceTest.testListByAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -661,7 +595,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MailSenderTest.testSendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MailUtilsTest.testSendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="top.zywork.common.mail.*" />
@@ -672,7 +606,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="top.zywork.common.mail" />
-      <option name="MAIN_CLASS_NAME" value="top.zywork.common.mail.MailSenderTest" />
+      <option name="MAIN_CLASS_NAME" value="top.zywork.common.mail.MailUtilsTest" />
       <option name="METHOD_NAME" value="testSendMail" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1172,11 +1106,11 @@
       <item index="3" class="java.lang.String" itemvalue="JUnit.PermissionServiceTest.testListByAccount (2)" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.PermissionServiceTest.testListByRoleIds" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.PermissionServiceTest.testListByRoleIds (1)" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.MailSenderTest.testSendMail" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.MailUtilsTest.testSendMail" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MailSenderTest.testSendMail" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MailUtilsTest.testSendMail" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.PermissionServiceTest.testListByRoleIds (1)" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.PermissionServiceTest.testListByRoleIds" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.PermissionServiceTest.testListByAccount (2)" />
@@ -1223,7 +1157,7 @@
       <workItem from="1505130717437" duration="27066000" />
       <workItem from="1505212327350" duration="11211000" />
       <workItem from="1505276447756" duration="6397000" />
-      <workItem from="1505286594929" duration="19340000" />
+      <workItem from="1505286594929" duration="20074000" />
     </task>
     <servers />
   </component>
@@ -1260,7 +1194,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338485000" />
+    <option name="totallyTimeSpent" value="339219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3090,20 +3024,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailSender.java">
+    <entry file="file://$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/mail/MailUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailSenderTest.java">
+    <entry file="file://$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/mail/MailUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="1320">
+          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

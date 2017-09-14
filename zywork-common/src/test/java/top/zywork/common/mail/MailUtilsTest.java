@@ -20,11 +20,10 @@ import java.util.UUID;
  *
  * @author 王振宇
  */
-public class MailSenderTest {
+public class MailUtilsTest {
 
     @Test
     public void testSendMail() throws MessagingException {
-        MailSender mailSender = new MailSender();
         Mail mail = new Mail();
         mail.setSubject("subject");
         List<MailAccount> mailAccountList = new ArrayList<>();
@@ -44,6 +43,6 @@ public class MailSenderTest {
         part3.setDataHandler(dataHanler1);
         multipart.addBodyPart(part3);
         mail.setMultipart(multipart);
-        mailSender.sendMail("classpath:/config/mail.properties", mail);
+        MailUtils.sendMail("classpath:/config/mail.properties", mail);
     }
 }
