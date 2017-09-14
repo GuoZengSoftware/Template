@@ -6,6 +6,7 @@ package top.zywork.enums;
  *
  * @author 王振宇
  * @version 1.0
+ * @see top.zywork.enums.ContentTypeEnum
  */
 public enum MIMETypeEnum {
 

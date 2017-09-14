@@ -20,6 +20,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import top.zywork.enums.CharsetEnum;
+import top.zywork.enums.ContentTypeEnum;
 import top.zywork.enums.MIMETypeEnum;
 
 import java.io.File;
@@ -69,7 +70,7 @@ public class HttpUtils {
     public static String httpPost(String url, String params) {
         HttpPost httpPost = new HttpPost(url);
         StringEntity stringEntity = new StringEntity(params, CharsetEnum.UTF8.getValue());
-        stringEntity.setContentType("application/x-www-form-urlencoded");
+        stringEntity.setContentType(ContentTypeEnum.FORM_URLENCODED.getValue());
         httpPost.setEntity(stringEntity);
         return send(null, httpPost, stringResponseHandler);
     }
