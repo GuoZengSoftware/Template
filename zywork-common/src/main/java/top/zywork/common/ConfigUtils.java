@@ -21,9 +21,10 @@ public class ConfigUtils {
     /**
      * 根据指定的配置文件路径读取文件内容到Properties实例中
      * @param location 配置文件的路径，包含两种形式，classpath:/和/WEB-INF的两个位置
+     * @return Properties对象
      * @see top.zywork.common.FileUtils
      */
-    public void build(String location) {
+    public Properties build(String location) {
         properties = new Properties();
         try {
             properties.load(new BufferedReader(
@@ -33,6 +34,7 @@ public class ConfigUtils {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return properties;
     }
 
     /**
