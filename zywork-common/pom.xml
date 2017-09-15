@@ -52,6 +52,7 @@
         <fastjson.version>1.2.37</fastjson.version>
         <httpclient.version>4.5.3</httpclient.version>
         <mail.version>1.6.0</mail.version>
+        <hibernate-validator.version>6.0.2.Final</hibernate-validator.version>
         <junit.version>4.12</junit.version>
     </properties>
 
@@ -103,6 +104,12 @@
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>${mail.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate-validator.version}</version>
         </dependency>
 
         <dependency>
