@@ -1,7 +1,7 @@
 package top.zywork.enums;
 
 /**
- * 控制器执行结果枚举
+ * 控制器执行结果枚举<br />
  * 创建于2017-08-16
  *
  * @author 王振宇
@@ -9,20 +9,31 @@ package top.zywork.enums;
  */
 public enum ControllerStatusEnum {
 
-    OK("ok"),
-    ERROR("error");
+    OK(101, "ok"),
+    ERROR(102, "error"),
+    DATA_ERROR(103, "data-error");
 
-    private String value;
+    private Integer code;
+    private String status;
 
-    ControllerStatusEnum(String value) {
-        this.value = value;
+    ControllerStatusEnum(Integer code, String status) {
+        this.code = code;
+        this.status = status;
     }
 
-    public String getValue() {
-        return value;
+    public Integer getCode() {
+        return code;
     }
 
-    public void setValue(String value) {
-        this.value = value;
+    public void setCode(Integer code) {
+        this.code = code;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

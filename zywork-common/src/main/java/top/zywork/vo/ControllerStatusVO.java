@@ -60,17 +60,40 @@ public class ControllerStatusVO extends BaseVO {
      * @return 表示执行成功的结果
      */
     public static ControllerStatusVO okStatus(Integer code, String message) {
-        return new ControllerStatusVO(code, ControllerStatusEnum.OK.getValue(), message);
+        return new ControllerStatusVO(code, ControllerStatusEnum.OK.getStatus(), message);
     }
 
     /**
      * 获取表示执行失败的结果
      *
+     * @param code 状态码
      * @param message 需要返回到前端页面的提示信息
      * @return 表示执行失败的结果
      */
     public static ControllerStatusVO errorStatus(Integer code, String message) {
-        return new ControllerStatusVO(code, ControllerStatusEnum.ERROR.getValue(), message);
+        return new ControllerStatusVO(code, ControllerStatusEnum.ERROR.getStatus(), message);
+    }
+
+    /**
+     * 获取表示数据错误的结果
+     *
+     * @param code 状态码
+     * @param message 需要返回到前端页面的提示信息
+     * @return 表示数据错误的结果
+     */
+    public static ControllerStatusVO dataErrorStatus(Integer code, String message) {
+        return new ControllerStatusVO(code, ControllerStatusEnum.DATA_ERROR.getStatus(), message);
+    }
+
+    /**
+     * 获取表示数据错误的结果
+     *
+     * @param message 需要返回到前端页面的提示信息
+     * @return 表示数据错误的结果
+     */
+    public static ControllerStatusVO dataErrorStatus(String message) {
+        return new ControllerStatusVO(ControllerStatusEnum.DATA_ERROR.getCode(),
+                ControllerStatusEnum.DATA_ERROR.getStatus(), message);
     }
 
     @Override
