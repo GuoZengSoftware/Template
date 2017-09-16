@@ -26,7 +26,7 @@ public class TemplateController extends ActionSupport {
 
     public String execute() {
         logger.info("template******");
-        logger.debug("你好！");
+        logger.info(getText("template.hello"));
         TemplateDTO templateDTO = new TemplateDTO();
         templateDTO.setName("test");
         templateDTO.setPassword(EncryptUtils.md5("123456"));

@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.support.RequestContext;
 import top.zywork.common.EncryptUtils;
 import top.zywork.common.ExceptionUtils;
 import top.zywork.dto.TemplateDTO;
@@ -13,6 +14,7 @@ import top.zywork.exception.ServiceException;
 import top.zywork.service.TemplateService;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * Template测试控制器类<br />
@@ -31,9 +33,10 @@ public class TemplateController {
     private TemplateService templateService;
 
     @RequestMapping(value = "ssm", method = RequestMethod.GET)
-    public String add() {
+    public String add(HttpServletRequest request) {
         logger.info("template******");
-        logger.debug("你好！");
+        RequestContext requestContext = new RequestContext(request);
+        logger.info(requestContext.getMessage("template.hello"));
         TemplateDTO templateDTO = new TemplateDTO();
         templateDTO.setName("test");
         templateDTO.setPassword(EncryptUtils.md5("123456"));

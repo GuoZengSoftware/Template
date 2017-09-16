@@ -35,6 +35,7 @@ public class TemplateController extends ActionSupport {
     @Action(value = "ssh2", results = {@Result(name = "success", location = "/WEB-INF/views/index.jsp")})
     public String execute() {
         logger.info("template******");
+        logger.info(getText("template.hello"));
         TemplateDTO templateDTO = new TemplateDTO();
         templateDTO.setName("test");
         templateDTO.setPassword(EncryptUtils.md5("123456"));
