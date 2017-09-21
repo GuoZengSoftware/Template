@@ -8,6 +8,7 @@
 	<constant name="struts.multipart.saveDir" value="/upload" />
 	<constant name="struts.multipart.maxSize" value="104857600" />
 	<constant name="struts.serve.static" value="false" />
+	<constant name="struts.action.excludePattern" value="/socket/.*"></constant>
 
 	<constant name="struts.objectFactory" value="spring" />
 
