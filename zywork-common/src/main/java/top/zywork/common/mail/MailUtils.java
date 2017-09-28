@@ -35,6 +35,7 @@ public class MailUtils {
 			transport.connect();
 			Message msg = buildMessage(session, mail);
 			transport.sendMessage(msg, msg.getAllRecipients());
+			transport.close();
 		} catch (NoSuchProviderException e) {
 			throw ExceptionUtils.appException(e);
 		} catch (MessagingException e) {
