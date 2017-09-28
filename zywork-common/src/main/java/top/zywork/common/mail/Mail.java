@@ -107,7 +107,7 @@ public class Mail {
 				BodyPart attachmentPart = new MimeBodyPart();
 				File file = new File(path);
 				attachmentPart.setDataHandler(new DataHandler(new FileDataSource(file)));
-				attachmentPart.setFileName(MimeUtility.encodeText("测试.txt"));
+				attachmentPart.setFileName(MimeUtility.encodeText(file.getName()));
 				multipart.addBodyPart(attachmentPart);
 			}
 		} catch (MessagingException e) {
