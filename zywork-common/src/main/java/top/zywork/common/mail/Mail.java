@@ -1,6 +1,15 @@
 package top.zywork.common.mail;
 
+import javax.activation.DataHandler;
+import javax.activation.FileDataSource;
+import javax.mail.BodyPart;
+import javax.mail.MessagingException;
 import javax.mail.Multipart;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMultipart;
+import javax.mail.internet.MimeUtility;
+import java.io.File;
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 /**
@@ -18,7 +27,8 @@ public class Mail {
 	private List<MailAccount> bccRecipients;
 	private String subject;
 	private String content;
-	private String type;
+	private String contentType;
+	private List<String> files;
 	private Multipart multipart;
 
 	public MailAccount getFrom() {
@@ -69,19 +79,41 @@ public class Mail {
 		this.content = content;
 	}
 
-	public String getType() {
-		return type;
+	public String getContentType() {
+		return contentType;
 	}
 
-	public void setType(String type) {
-		this.type = type;
+	public List<String> getFiles() {
+		return files;
+	}
+
+	public void setFiles(List<String> files) {
+		this.files = files;
+	}
+
+	public void setContentType(String contentType) {
+		this.contentType = contentType;
 	}
 
 	public Multipart getMultipart() {
+		Multipart multipart = new MimeMultipart();
+		try {
+			BodyPart contentPart = new MimeBodyPart();
+			contentPart.setContent(content, contentType);
+			multipart.addBodyPart(contentPart);
+			for (String path : files) {
+				BodyPart attachmentPart = new MimeBodyPart();
+				File file = new File(path);
+				attachmentPart.setDataHandler(new DataHandler(new FileDataSource(file)));
+				attachmentPart.setFileName(MimeUtility.encodeText("测试.txt"));
+				multipart.addBodyPart(attachmentPart);
+			}
+		} catch (MessagingException e) {
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
 		return multipart;
 	}
 
-	public void setMultipart(Multipart multipart) {
-		this.multipart = multipart;
-	}
 }

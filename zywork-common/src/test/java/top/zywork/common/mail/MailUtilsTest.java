@@ -1,6 +1,7 @@
 package top.zywork.common.mail;
 
 import org.junit.Test;
+import top.zywork.enums.ContentTypeEnum;
 
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
@@ -30,19 +31,11 @@ public class MailUtilsTest {
         mailAccountList.add(new MailAccount("wgssmarter@126.com"));
         mailAccountList.add(new MailAccount("847315251@qq.com"));
         mail.setRecipients(mailAccountList);
-        Multipart multipart = new MimeMultipart();
-        BodyPart part1 = new MimeBodyPart();
-        part1.setContent("您已注册成功，请点击以下链接完成激活：<a href=' http://115.28.37.189?email=abc@126.com&code=" + UUID.randomUUID().toString() + "'>激活你的账号</a>", "text/html;charset=utf-8");
-        multipart.addBodyPart(part1);
-        BodyPart part2 = new MimeBodyPart();
-        DataHandler dataHandler = new DataHandler(new FileDataSource(new File("src/360wallpaper.jpg")));
-        part2.setDataHandler(dataHandler);
-        multipart.addBodyPart(part2);
-        BodyPart part3 = new MimeBodyPart();
-        DataHandler dataHanler1 = new DataHandler(new FileDataSource(new File("src/JavaMail.txt")));
-        part3.setDataHandler(dataHanler1);
-        multipart.addBodyPart(part3);
-        mail.setMultipart(multipart);
+        mail.setContent("hello");
+        mail.setContentType(ContentTypeEnum.HTML.getValue());
+        List<String> files = new ArrayList<>();
+        files.add("src/main/resources/config/mail.properties");
+        mail.setFiles(files);
         MailUtils.sendMail("classpath:/config/mail.properties", mail);
     }
 }

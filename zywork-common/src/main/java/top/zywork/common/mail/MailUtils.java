@@ -1,10 +1,8 @@
 package top.zywork.common.mail;
 
-import org.apache.commons.lang3.StringUtils;
 import top.zywork.common.ConfigUtils;
 import top.zywork.common.ExceptionUtils;
 import top.zywork.constant.MailConstants;
-import top.zywork.enums.ContentTypeEnum;
 
 import javax.mail.*;
 import javax.mail.internet.MimeMessage;
@@ -55,12 +53,7 @@ public class MailUtils {
 		Message msg = new MimeMessage(session);
 		msg.setFrom(MailAddressUtils.toAddress(mail.getFrom()));
 		msg.setSubject(mail.getSubject());
-		if (StringUtils.isNotEmpty(mail.getContent())) {
-			msg.setContent(mail.getContent(),
-					StringUtils.isEmpty(mail.getType()) ? ContentTypeEnum.HTML.getValue() : mail.getType());
-		} else {
-			msg.setContent(mail.getMultipart());
-		}
+		msg.setContent(mail.getMultipart());
 		msg.setRecipients(RecipientType.TO, MailAddressUtils.toAddressArray(mail.getRecipients()));
 		if (mail.getCcRecipients() != null) {
 			msg.setRecipients(RecipientType.CC, MailAddressUtils.toAddressArray(mail.getCcRecipients()));
