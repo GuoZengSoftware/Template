@@ -1,5 +1,7 @@
 package top.zywork.common.mail;
 
+import top.zywork.common.ExceptionUtils;
+
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
 import javax.mail.BodyPart;
@@ -109,9 +111,9 @@ public class Mail {
 				multipart.addBodyPart(attachmentPart);
 			}
 		} catch (MessagingException e) {
-			e.printStackTrace();
+			throw ExceptionUtils.appException(e);
 		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
+			throw ExceptionUtils.appException(e);
 		}
 		return multipart;
 	}
