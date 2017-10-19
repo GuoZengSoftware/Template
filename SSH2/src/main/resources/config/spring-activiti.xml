@@ -10,6 +10,7 @@
         <property name="mailServerPort" value="5025" />
         <property name="activityFontName" value="宋体" />
         <property name="labelFontName" value="宋体" />
+        <property name="annotationFontName" value="宋体" />
         <!--
         <property name="deploymentResources" value="classpath:/bpmn/*.bpmn" />
         <property name="deploymentMode" value="single-resource" />
