@@ -90,4 +90,31 @@ public class FileUtils {
         return false;
     }
 
+    /**
+     * 获取src根目录下的bpmn目录路径
+     * @return
+     */
+    public static String getBPMNDir() {
+        return getClasspath() + "/bpmn/";
+    }
+
+    /**
+     * 获取指定文件名的不包括后缀部分的文件名，只一个.后缀的情况
+     * @param filename 指定的文件名
+     * @return 去除后缀的文件名
+     */
+    public static String getFileNameWithoutExt(String filename) {
+        return filename.substring(0, filename.lastIndexOf("."));
+    }
+
+    /**
+     * 获取指定文件名的不包括后缀部分的文件名，后缀可指定
+     * @param filename 指定的文件名
+     * @param extension 指定的后缀
+     * @return 去除后缀的文件名
+     */
+    public static String getFileNameWithoutExt(String filename, String extension) {
+        return filename.substring(0, filename.indexOf(extension));
+    }
+
 }

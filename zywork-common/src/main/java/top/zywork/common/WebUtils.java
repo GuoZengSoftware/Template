@@ -1,6 +1,10 @@
 package top.zywork.common;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 /**
  * Web工具类
@@ -28,6 +32,40 @@ public class WebUtils {
     public static String getReqMethod(HttpServletRequest request) {
         String uri = request.getRequestURI();
         return uri.substring(uri.lastIndexOf("/") + 1);
+    }
+
+    /**
+     * 把指定的输入流通过response对象的输出流输出
+     * @param in 输入流
+     * @param out 输出流
+     */
+    public static void outResponse(InputStream in, OutputStream out) {
+        byte[] bytes = new byte[1024];
+        try {
+            for (int length = -1; (length = in.read(bytes)) != -1;) {
+                out.write(bytes, 0, length);
+            }
+            in.close();
+            out.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 把指定的输入流通过response对象的输出流输出
+     * @param response HttpServletResponse响应对象
+     * @param contentType 响应对象的内容类型
+     * @param in 输入流
+     */
+    public static void outResponse(HttpServletResponse response, String contentType, InputStream in) {
+        response.setContentType(contentType);
+        try {
+            OutputStream out = response.getOutputStream();
+            outResponse(in, out);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }

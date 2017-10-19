@@ -26,6 +26,14 @@ public class DateUtils {
     }
 
     /**
+     * 获取当前时间的Date对象
+     * @return 当前时间的Date对象
+     */
+    public static Date currentDate() {
+        return Calendar.getInstance().getTime();
+    }
+
+    /**
      * Date类型转换成Calendar
      * @param date 需要转换的Date实例
      * @return 转换后的Calendar实例
