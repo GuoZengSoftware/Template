@@ -25,7 +25,7 @@ import javax.annotation.Resource;
 @Controller
 @ParentPackage(value = "base-package")
 @Namespace(value = "/template")
-public class TemplateController extends ActionSupport {
+public class TemplateController extends BaseController {
     private static final long serialVersionUID = 1647679288455528889L;
 
     private Logger logger = LoggerFactory.getLogger(TemplateController.class);

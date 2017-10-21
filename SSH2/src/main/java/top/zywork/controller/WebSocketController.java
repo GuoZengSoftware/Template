@@ -17,7 +17,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 @ParentPackage(value = "base-package")
 @Namespace(value = "/websocket")
-public class WebSocketController extends ActionSupport {
+public class WebSocketController extends BaseController {
     private static final long serialVersionUID = 4314529153953195464L;
 
     /**

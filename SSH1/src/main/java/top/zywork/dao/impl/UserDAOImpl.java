@@ -32,7 +32,7 @@ public class UserDAOImpl extends HibernateDaoSupport implements UserDAO {
                 String hql = "from UserDO u where u.password = :password"
                         + " and (u.email = :account or u.phone = :account or u.accountName = :account)";
                 try {
-                    Query<UserDO> query = getSessionFactory().getCurrentSession().createQuery(hql, UserDO.class);
+                    Query<UserDO> query = session.createQuery(hql, UserDO.class);
                     query.setParameter("password", userAccountPasswordQuery.getPassword());
                     query.setParameter("account", userAccountPasswordQuery.getAccount());
                     return query.uniqueResult();

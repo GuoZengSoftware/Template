@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import top.zywork.enums.AppControllerStatusEnum;
+import top.zywork.enums.CommonControllerStatusEnum;
 import top.zywork.vo.AdminLoginVO;
 import top.zywork.vo.ControllerStatusVO;
 
@@ -47,14 +47,14 @@ public class AdminController {
         System.out.println(loginVO.getAccount());
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(loginVO.getAccount(), loginVO.getPassword());
-        ControllerStatusVO statusVO = ControllerStatusVO.okStatus(AppControllerStatusEnum.USER_LOGIN_OK.getCode(),
-                AppControllerStatusEnum.USER_LOGIN_OK.getMessage());
+        ControllerStatusVO statusVO = ControllerStatusVO.okStatus(CommonControllerStatusEnum.USER_LOGIN_OK.getCode(),
+                CommonControllerStatusEnum.USER_LOGIN_OK.getMessage());
         try {
             subject.login(token);
         } catch (AuthenticationException e) {
             logger.info("用户登录失败，登录名或密码错误");
-            statusVO = ControllerStatusVO.errorStatus(AppControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
-                    AppControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
+            statusVO = ControllerStatusVO.errorStatus(CommonControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
+                    CommonControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
         }
         return statusVO;
     }

@@ -1,15 +1,12 @@
 package top.zywork.controller;
 
-import com.opensymphony.xwork2.ActionSupport;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.IncorrectCredentialsException;
-import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import top.zywork.enums.AppControllerStatusEnum;
+import top.zywork.enums.CommonControllerStatusEnum;
 import top.zywork.vo.AdminLoginVO;
 import top.zywork.vo.ControllerStatusVO;
 
@@ -20,7 +17,7 @@ import top.zywork.vo.ControllerStatusVO;
  * @author 王振宇
  * @version 1.0
  */
-public class AdminController extends ActionSupport {
+public class AdminController extends BaseController {
     private static final long serialVersionUID = 569702540698440409L;
 
     private Logger logger = LoggerFactory.getLogger(AdminController.class);
@@ -44,14 +41,14 @@ public class AdminController extends ActionSupport {
     public String login() {
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(loginVO.getAccount(), loginVO.getPassword());
-        statusVO = ControllerStatusVO.okStatus(AppControllerStatusEnum.USER_LOGIN_OK.getCode(),
-                AppControllerStatusEnum.USER_LOGIN_OK.getMessage());
+        statusVO = ControllerStatusVO.okStatus(CommonControllerStatusEnum.USER_LOGIN_OK.getCode(),
+                CommonControllerStatusEnum.USER_LOGIN_OK.getMessage());
         try {
             subject.login(token);
         } catch (AuthenticationException e) {
             logger.info("用户登录失败，登录名或密码错误");
-            statusVO = ControllerStatusVO.errorStatus(AppControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
-                    AppControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
+            statusVO = ControllerStatusVO.errorStatus(CommonControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
+                    CommonControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
         }
         return "login";
     }

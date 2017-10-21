@@ -9,7 +9,7 @@ import com.opensymphony.xwork2.ActionSupport;
  * @author 王振宇
  * @version 1.0
  */
-public class WebSocketController extends ActionSupport {
+public class WebSocketController extends BaseController {
     private static final long serialVersionUID = 4314529153953195464L;
 
     /**

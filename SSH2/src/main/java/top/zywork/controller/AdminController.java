@@ -12,7 +12,7 @@ import org.apache.struts2.convention.annotation.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import top.zywork.enums.AppControllerStatusEnum;
+import top.zywork.enums.CommonControllerStatusEnum;
 import top.zywork.vo.AdminLoginVO;
 import top.zywork.vo.ControllerStatusVO;
 
@@ -26,7 +26,7 @@ import top.zywork.vo.ControllerStatusVO;
 @Controller
 @ParentPackage(value = "base-package")
 @Namespace(value = "/admin")
-public class AdminController extends ActionSupport {
+public class AdminController extends BaseController {
     private static final long serialVersionUID = 569702540698440409L;
 
     private Logger logger = LoggerFactory.getLogger(AdminController.class);
@@ -52,14 +52,14 @@ public class AdminController extends ActionSupport {
     public String login() {
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken(loginVO.getAccount(), loginVO.getPassword());
-        statusVO = ControllerStatusVO.okStatus(AppControllerStatusEnum.USER_LOGIN_OK.getCode(),
-                AppControllerStatusEnum.USER_LOGIN_OK.getMessage());
+        statusVO = ControllerStatusVO.okStatus(CommonControllerStatusEnum.USER_LOGIN_OK.getCode(),
+                CommonControllerStatusEnum.USER_LOGIN_OK.getMessage());
         try {
             subject.login(token);
         } catch (AuthenticationException e) {
             logger.info("用户登录失败，登录名或密码错误");
-            statusVO = ControllerStatusVO.errorStatus(AppControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
-                    AppControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
+            statusVO = ControllerStatusVO.errorStatus(CommonControllerStatusEnum.USER_LOGIN_ERROR.getCode(),
+                    CommonControllerStatusEnum.USER_LOGIN_ERROR.getMessage());
         }
         return "login";
     }

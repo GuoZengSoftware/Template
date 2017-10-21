@@ -17,7 +17,7 @@ import top.zywork.service.TemplateService;
  * @version 1.0
  *
  */
-public class TemplateController extends ActionSupport {
+public class TemplateController extends BaseController {
     private static final long serialVersionUID = 1647679288455528889L;
 
     private Logger logger = LoggerFactory.getLogger(TemplateController.class);
