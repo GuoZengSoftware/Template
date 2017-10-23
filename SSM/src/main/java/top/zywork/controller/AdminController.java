@@ -24,7 +24,7 @@ import top.zywork.vo.ControllerStatusVO;
  */
 @Controller
 @RequestMapping("/admin")
-public class AdminController {
+public class AdminController extends BaseController {
 
     private Logger logger = LoggerFactory.getLogger(AdminController.class);
 

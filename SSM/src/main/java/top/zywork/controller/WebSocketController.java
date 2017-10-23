@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("/websocket")
-public class WebSocketController {
+public class WebSocketController extends BaseController {
 
     /**
      * 显示socket测试页

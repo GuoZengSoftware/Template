@@ -26,7 +26,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 @RequestMapping("/template")
-public class TemplateController {
+public class TemplateController extends BaseController {
 
     private Logger logger = LoggerFactory.getLogger(TemplateController.class);
 
