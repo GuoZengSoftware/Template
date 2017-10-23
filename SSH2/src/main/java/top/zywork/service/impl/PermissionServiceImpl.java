@@ -69,7 +69,7 @@ public class PermissionServiceImpl extends AbstractBaseService implements Permis
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 

@@ -50,7 +50,7 @@ public class UserServiceImpl extends AbstractBaseService implements UserService 
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 

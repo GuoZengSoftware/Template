@@ -46,7 +46,7 @@ public class RoleServiceImpl extends AbstractBaseService implements RoleService 
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 

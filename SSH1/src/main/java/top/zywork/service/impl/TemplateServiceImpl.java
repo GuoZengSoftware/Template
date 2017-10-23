@@ -40,7 +40,7 @@ public class TemplateServiceImpl extends AbstractBaseService implements Template
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 

@@ -40,7 +40,7 @@ public class ModuleServiceImpl extends AbstractBaseService implements ModuleServ
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 

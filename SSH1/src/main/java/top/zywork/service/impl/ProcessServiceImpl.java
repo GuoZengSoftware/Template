@@ -35,7 +35,7 @@ public class ProcessServiceImpl extends AbstractBaseService implements ProcessSe
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 
