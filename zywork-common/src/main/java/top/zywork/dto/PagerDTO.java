@@ -17,7 +17,6 @@ public class PagerDTO<T> {
     private Long total;
     private List<T> rows;
 
-
     public PagerDTO() {}
 
     public PagerDTO(Integer pageNo, Integer pageSize) {

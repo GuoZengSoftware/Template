@@ -19,7 +19,6 @@ public class PagerVO<T> extends BaseVO{
     private Long total;
     private List<T> rows;
 
-
     public PagerVO() {}
 
     public PagerVO(Integer pageNo, Integer pageSize) {
@@ -57,5 +56,10 @@ public class PagerVO<T> extends BaseVO{
 
     public void setRows(List<T> rows) {
         this.rows = rows;
+    }
+
+    public Long getTotalPage() {
+        long totalPage = total / pageSize;
+        return totalPage == 0 ? totalPage : totalPage + 1;
     }
 }
