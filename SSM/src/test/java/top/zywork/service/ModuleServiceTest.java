@@ -14,7 +14,8 @@ import javax.annotation.Resource;
  * @author 王振宇
  */
 @ContextConfiguration(locations = {"classpath:/config/spring-mybatis.xml",
-        "classpath:/config/spring-context.xml"})
+        "classpath:/config/spring-context.xml",
+        "classpath:/config/spring-activiti.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class ModuleServiceTest {
 
