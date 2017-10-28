@@ -13,12 +13,7 @@
 	<constant name="struts.objectFactory" value="spring" />
 
 	<package name="base-package" extends="json-default">
-		<global-results>
-			<result name="error">/WEB-INF/views/common/error.jsp</result>
-		</global-results>
-		<global-exception-mappings>
-			<exception-mapping exception="java.lang.Exception" result="error" />
-		</global-exception-mappings>
+
 	</package>
 
 	<include file="config/struts-*.xml" />

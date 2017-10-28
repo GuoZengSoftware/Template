@@ -12,5 +12,6 @@
 
     <bean id="userDAO" class="top.zywork.dao.impl.UserDAOImpl" autowire="byName"></bean>
     <bean id="userService" class="top.zywork.service.impl.UserServiceImpl" autowire="byName"></bean>
+    <bean id="userRedisService" class="top.zywork.service.impl.UserRedisServiceImpl" autowire="byName"></bean>
 
 </beans>
