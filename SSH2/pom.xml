@@ -49,7 +49,8 @@
     <properties>
         <zywork.version>1.0</zywork.version>
         <struts.version>2.3.32</struts.version>
-        <spring.version>4.3.10.RELEASE</spring.version>
+        <spring.version>4.3.12.RELEASE</spring.version>
+        <spring-data-redis.version>1.8.8.RELEASE</spring-data-redis.version>
         <aspectj.version>1.8.10</aspectj.version>
         <mysql.version>5.1.42</mysql.version>
         <hibernate.version>5.2.10.Final</hibernate.version>
@@ -60,6 +61,7 @@
         <slf-log4j.version>1.7.6</slf-log4j.version>
         <websocket.version>1.1</websocket.version>
         <quartz.version>2.3.0</quartz.version>
+        <jedis.version>2.9.0</jedis.version>
     </properties>
 
     <dependencies>
@@ -133,6 +135,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
             <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>${spring-data-redis.version}</version>
         </dependency>
 
         <dependency>
@@ -226,6 +234,12 @@
             <artifactId>javax.el-api</artifactId>
             <version>3.0.0</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
         </dependency>
 
     </dependencies>
