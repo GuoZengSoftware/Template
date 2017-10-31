@@ -27,10 +27,12 @@ public class ConfigUtils {
     public Properties build(String location) {
         properties = new Properties();
         try {
-            properties.load(new BufferedReader(
+            BufferedReader bufferedReader = new BufferedReader(
                     new InputStreamReader(
                             new BufferedInputStream(
-                                    new FileInputStream(FileUtils.getResourcePath(location))))));
+                                    new FileInputStream(FileUtils.getResourcePath(location)))));
+            properties.load(bufferedReader);
+            bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

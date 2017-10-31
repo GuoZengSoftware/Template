@@ -75,6 +75,15 @@ public class FileUtils {
     }
 
     /**
+     * 获取指定文件名的后缀，不包括.符号
+     * @param filename 完事的文件名
+     * @return 文件后缀，不包括.符号，如png
+     */
+    public static String getExtensionWithoutDot(String filename) {
+        return filename.substring(filename.lastIndexOf(".") + 1);
+    }
+
+    /**
      * 判断给定的文件名是否符合指定的文件后缀
      * @param fileName 完整的文件名
      * @param extensions 需要比对文的件后缀，文件后缀包括.符号，多个文件后缀用英文半角,隔开

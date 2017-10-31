@@ -17,6 +17,7 @@ import top.zywork.service.ActivitiService;
 import javax.annotation.Resource;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -44,12 +45,13 @@ public class ActivitiServiceImpl implements ActivitiService {
     @Override
     public Deployment deploy(String processName) {
         try {
-            return repositoryService.createDeployment().addZipInputStream(
-                    new ZipInputStream(
-                            new FileInputStream(
-                                    FileUtils.getBPMNDir() + processName + BPMNConstants.SUFFIX_ZIP
-                            ))).deploy();
-        } catch (FileNotFoundException e) {
+            ZipInputStream zipInputStream = new ZipInputStream(
+                    new FileInputStream(
+                            FileUtils.getBPMNDir() + processName + BPMNConstants.SUFFIX_ZIP));
+            Deployment deployment = repositoryService.createDeployment().addZipInputStream(zipInputStream).deploy();
+            zipInputStream.close();
+            return deployment;
+        } catch (IOException e) {
             throw ExceptionUtils.serviceException(e);
         }
     }
