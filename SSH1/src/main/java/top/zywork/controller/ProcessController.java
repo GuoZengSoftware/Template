@@ -137,7 +137,7 @@ public class ProcessController extends BaseController {
     public String view_proc() {
         InputStream in = activitiService.getDiagramPNG("leave_process");
         WebUtils.outResponse(getResponse(), "image/png", in);
-        return "viewProc";
+        return null;
     }
 
     /**
@@ -147,7 +147,7 @@ public class ProcessController extends BaseController {
     public String generate_proc() {
         InputStream in = activitiService.generateDiagramPNG("12513", "leave_process");
         WebUtils.outResponse(getResponse(), "image/png", in);
-        return "generateProc";
+        return null;
     }
 
     public void setProcessService(ProcessService processService) {

@@ -24,8 +24,6 @@
 			<result name="listProcessInstances" type="json">
 				<param name="root">statusVO</param>
 			</result>
-			<result name="viewProc"></result>
-			<result name="generateProc"></result>
 		</action>
 	</package>
 </struts>

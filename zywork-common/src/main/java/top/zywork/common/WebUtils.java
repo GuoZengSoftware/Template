@@ -40,12 +40,8 @@ public class WebUtils {
      * @param out 输出流
      */
     public static void outResponse(InputStream in, OutputStream out) {
-        byte[] bytes = new byte[1024];
+        IOUtils.inputToOutput(in, out);
         try {
-            for (int length = -1; (length = in.read(bytes)) != -1;) {
-                out.write(bytes, 0, length);
-            }
-            in.close();
             out.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -61,8 +57,7 @@ public class WebUtils {
     public static void outResponse(HttpServletResponse response, String contentType, InputStream in) {
         response.setContentType(contentType);
         try {
-            OutputStream out = response.getOutputStream();
-            outResponse(in, out);
+            outResponse(in, response.getOutputStream());
         } catch (IOException e) {
             e.printStackTrace();
         }
