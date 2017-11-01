@@ -7,16 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a5a346d-4c75-4470-b146-75ef20938da4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/test/resources/excel/test.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/IOUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSH1_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSH1_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSH2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSH2_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH1/src/main/java/top/zywork/controller/ProcessController.java" afterPath="$PROJECT_DIR$/SSH1/src/main/java/top/zywork/controller/ProcessController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSH1/src/main/resources/config/struts-process.xml" afterPath="$PROJECT_DIR$/SSH1/src/main/resources/config/struts-process.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ExcelUtils.java" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ExcelUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ImageUtils.java" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/ImageUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/WebUtils.java" afterPath="$PROJECT_DIR$/zywork-common/src/main/java/top/zywork/common/WebUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/ExcelUtilsTest.java" afterPath="$PROJECT_DIR$/zywork-common/src/test/java/top/zywork/common/ExcelUtilsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/SSH2/target/" />
     <ignored path="$PROJECT_DIR$/SSH1/target/" />
@@ -217,7 +210,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="2586" />
+    <option name="width" value="2574" />
     <option name="height" value="1546" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -281,51 +274,6 @@
               <item name="zywork" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zywork-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zywork" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zywork-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zywork-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zywork-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zywork-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zywork-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -341,7 +289,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22304833" />
     <property name="add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WechatLottery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QDHotelManagementSystem" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JPA.DatabaseSchemaImportDialog" value="7dd2d8d7-3f1c-463d-b5ab-c13d902dc28f" />
@@ -1068,7 +1016,7 @@
       <workItem from="1509010134290" duration="181000" />
       <workItem from="1509010926096" duration="6252000" />
       <workItem from="1509154368651" duration="12337000" />
-      <workItem from="1509346461151" duration="40648000" />
+      <workItem from="1509346461151" duration="41134000" />
     </task>
     <servers />
   </component>
@@ -1105,7 +1053,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="555624000" />
+    <option name="totallyTimeSpent" value="556110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1660,7 +1608,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>zywork-common:war exploded</last-edited>
+          <last-edited>SSM:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
