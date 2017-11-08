@@ -7,6 +7,8 @@ import top.zywork.constant.MailConstants;
 import javax.mail.*;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMessage.RecipientType;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 /**
@@ -18,6 +20,8 @@ import java.util.Properties;
  */
 public class MailUtils {
 
+	private static Map<String, Properties> propsMap = new HashMap<>();
+
 	/**
 	 * 根据邮件配置信息及邮件对象发送邮件
 	 * @param mailConfigPath 邮件配置信息，以classpath:/开头或/WEB-INF开头
@@ -25,7 +29,11 @@ public class MailUtils {
 	 */
 	public static void sendMail(String mailConfigPath, Mail mail) {
 		ConfigUtils configUtils = new ConfigUtils();
-		Properties props = configUtils.build(mailConfigPath);
+		Properties props = propsMap.get(mailConfigPath);
+		if (props == null) {
+			props = configUtils.build(mailConfigPath);
+			propsMap.put(mailConfigPath, props);
+		}
 		Session session = Session.getInstance(props,
 				new MailAuthenticator(configUtils.getString(MailConstants.USERNAME),
 						configUtils.getString(MailConstants.PASSWORD)));
