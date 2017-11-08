@@ -42,7 +42,7 @@ public class TemplateServiceImpl implements TemplateService {
     }
 
     @Override
-    public void remove(Long id) {
+    public void removeById(Long id) {
 
     }
 
