@@ -126,4 +126,24 @@ public class FileUtils {
         return filename.substring(0, filename.indexOf(extension));
     }
 
+    /**
+     * 通过比较文件的最后修改时间来判断一个文件是否比另外一个文件更新
+     * @param filename 判断是否为新文件的文件路径
+     * @param otherFilename 用来比较的文件的路径
+     * @return 如果用来判断是否为新文件的文件对应的最后修改时间比用于比较的文件的最后修改时间大，则返回true，否则返回false
+     */
+    public static boolean isNew(String filename, String otherFilename) {
+        return isNew(new File(filename), new File(otherFilename));
+    }
+
+    /**
+     * 通过比较文件的最后修改时间来判断一个文件是否比另外一个文件更新
+     * @param file 判断是否为新文件的文件对象
+     * @param otherFile 用来比较的文件对象
+     * @return 如果用来判断是否为新文件的文件对应的最后修改时间比用于比较的文件的最后修改时间大，则返回true，否则返回false
+     */
+    public static boolean isNew(File file, File otherFile) {
+        return file.lastModified() > otherFile.lastModified();
+    }
+
 }
