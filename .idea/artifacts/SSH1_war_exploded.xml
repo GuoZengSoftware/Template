@@ -98,7 +98,6 @@
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.3.1" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.0.Final" />
           <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.2.Final" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:4.3.10.RELEASE" />
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.2" />
           <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.11" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP-java6:2.3.13" />
@@ -127,6 +126,8 @@
           <element id="library" level="project" name="Maven: org.apache.poi:poi:3.17" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" />
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="module" name="Maven: com.alibaba:jconsole:1.8.0" module-name="SSH1" />
+          <element id="library" level="module" name="Maven: com.alibaba:tools:1.8.0" module-name="SSH1" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="zywork-common/web/Web" />
